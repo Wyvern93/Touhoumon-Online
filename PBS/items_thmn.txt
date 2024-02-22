@@ -1,0 +1,1953 @@
+#--------------------------------------
+# Touhoumon DevKit and Asteria Items
+#--------------------------------------
+# Generic and Hold Items
+#--------------------------------------
+[YATAMIRROR]
+Name = Mirror of Yata
+NamePlural = Yata Mirrors
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = An item to be held by Rinnosuke. A sacred mirror possessed by ancient nobility, it raises the Def stat.
+#-------------------------------
+[KUSANAGI]
+Name = Kusanagi
+NamePlural = Kusanagi
+Pocket = 1
+Price = 0
+Flags = Fling_90
+Description = An item to be held by Rinnosuke. A legendary sword possessed by ancient nobility, it raises the Atk stat.
+#-------------------------------
+[DONATIONBOX]
+Name = Donation Box
+NamePlural = Donation Boxes
+Pocket = 1
+Price = 0
+Flags = Fling_40
+Description = An item to be held in battle. It doubles the earned prize money if the holder enters the battle.
+#-------------------------------
+[BLOOMERS]
+Name = Bloomers
+NamePlural = Bloomers
+PortionName = pair of Bloomers
+PortionNamePlural = pairs of Bloomers
+Pocket = 1
+Price = 0
+Flags = Fling_10
+Description = An item to be worn by a battler. These garments ups Atk, but allows the use of only one kind of move.
+#-------------------------------
+[FOCUSRIBBON]
+Name = Focus Ribbon
+NamePlural = Focus Ribbons
+Pocket = 1
+Price = 200
+Flags = Fling_10
+Description = An item to be held in battle. The one holding this may endure an attack, leaving just 1 HP.
+#-------------------------------
+[POWERRIBBON]
+Name = Power Ribbon
+NamePlural = Power Ribbons
+Pocket = 1
+Price = 0
+Flags = Fling_10
+Description = An item to be worn by a battler. Theis ribbon ups Atk, but allows the use of only one kind of move.
+#-------------------------------
+[TECHSHARD]
+Name = Tech Shard
+NamePlural = Tech Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A pecuilar shard that makes certain species of Puppets evolve. It brings out interesting potential.
+#-------------------------------
+[POWERSHARD]
+Name = Power Shard
+NamePlural = Power Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar shard that makes certain species of Puppets evolve. It brings out powerful potential.
+#-------------------------------
+[DEFENSESHARD]
+Name = Defense Shard
+NamePlural = Defense Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar shard that makes certain species of Puppets evolve. It brings out defensive potential.
+#-------------------------------
+[SWIFTSHARD]
+Name = Swift Shard
+NamePlural = Swift Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar shard that makes certain species of Puppets evolve. It brings out speedy potential.
+#-------------------------------
+[SUPPORTSHARD]
+Name = Support Shard
+NamePlural = Support Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar shard that makes certain species of Puppets evolve. It brings out supportive potential.
+#-------------------------------
+[SOLARSHARD]
+Name = Solar Shard
+NamePlural = Solar Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar shard that makes certain species of Puppets evolve. It fosters a sense of justice in them
+#-------------------------------
+[GREENUFO]
+Name = Green UFO
+NamePlural = Green UFOs
+Pocket = 1
+Price = 200
+Flags = Fling_30
+Description = A common UFO left behind by some puppets. Valued by some collectors.
+#-------------------------------
+[BLUEUFO]
+Name = Blue UFO
+NamePlural = Blue UFOs
+Pocket = 1
+Price = 2000
+Flags = Fling_30
+Description = An uncommon UFO left behind by some puppets. Valued by collectors.
+#-------------------------------
+[REDUFO]
+Name = Red UFO
+NamePlural = Red UFOs
+Pocket = 1
+Price = 20000
+Flags = Fling_30
+Description = A rare UFO held by certain puppets. Can be sold for a high price or traded to collectors.
+#-------------------------------
+[MAIDCOSTUME]
+Name = Maid Uniform
+NamePlural = Maid Uniforms
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Steel-type moves.
+#-------------------------------
+[SWEATER]
+Name = Gym Sweater
+NamePlural = Gym Sweaters
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Earth-type moves.
+#-------------------------------
+[BUNNYSUIT]
+Name = Bunny Suit
+NamePlural = Bunny Suits
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Beast-type moves.
+#-------------------------------
+[CAMOUFLAGE]
+Name = Camouflage
+NamePlural = Camouflage
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Nature-type moves.
+#-------------------------------
+[BLAZER]
+Name = Blazer
+NamePlural = Blazers
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Heart-type moves.
+#-------------------------------
+[MISTRESS]
+Name = Mistress Attire
+NamePlural = Mistress Attire
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Dark-type moves.
+#-------------------------------
+[NINJA]
+Name = Ninja Suit
+NamePlural = Ninja Suits
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Wind-type moves.
+#-------------------------------
+[NURSE]
+Name = Nurse Outfit
+NamePlural = Nurse Outfits
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Miasma-type moves.
+#-------------------------------
+[SWIMSUIT]
+Name = Swimsuit
+NamePlural = Swimsuits
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Water-type moves.
+#-------------------------------
+[STEWARDESS]
+Name = Airline Uniform
+NamePlural = Airline Uniforms
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Flying-type moves.
+#-------------------------------
+[THICKFUR]
+Name = Thick Fur
+NamePlural = Thick Furs
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Ice-type moves.
+#-------------------------------
+[KIMONO]
+Name = Kimono
+NamePlural = Kimonos
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Ghost-type moves.
+#-------------------------------
+[WITCH]
+Name = Witch's Robe
+NamePlural = Witch's Robes
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Reason-type moves.
+#-------------------------------
+[GOTHIC]
+Name = Gothic Lolita
+NamePlural = Gothic Lolita
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Fire-type moves.
+#-------------------------------
+[BRIDALGOWN]
+Name = Bridal Gown
+NamePlural = Bridal Gowns
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Illusion moves.
+#-------------------------------
+[PRIESTESS]
+Name = Miko Uniform
+NamePlural = Miko Uniforms
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Faith-type moves.
+#-------------------------------
+[CHINADRESS]
+Name = China Dress
+NamePlural = China Dresses
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = A costume that boosts the power of a Puppet's Dream-type moves.
+#-------------------------------
+[MIKOFOSSIL]
+Name = Yin-Yang Orb
+NamePlural = Yin-Yang Orbs
+Pocket = 1
+Price = 1000
+Flags = Fling_100
+Description = A fossilized weapon that once belonged to an old miko puppet, Hakurei.
+#-------------------------------
+[MAGIFOSSIL]
+Name = Mini-Hakkero
+NamePlural = Mini-Hakkeros
+Pocket = 1
+Price = 1000
+Flags = Fling_100
+Description = A fossilized weapon that once belonged to an old witch puppet, Kirisame.
+#-------------------------------
+[CHROMESHARD]
+Name = Chrome Shard
+NamePlural = Chrome Shards
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar shard that makes certain species of Puppets evolve. It brings out hidden potential.
+#-------------------------------
+[GREENSPHERE1]
+Name = Tiny Green Sphere
+NamePlural = Tiny Green Spheres
+Pocket = 1
+Price = 250
+Flags = Fling_20
+Description = A green sphere that can be found while digging.
+#-------------------------------
+[REDSPHERE1]
+Name = Tiny Red Sphere
+NamePlural = Tiny Red Spheres
+Pocket = 1
+Price = 250
+Flags = Fling_20
+Description = A red sphere that can be found while digging.
+#-------------------------------
+[BLUESPHERE1]
+Name = Tiny Blue Sphere
+NamePlural = Tiny Blue Spheres
+Pocket = 1
+Price = 250
+Flags = Fling_20
+Description = A blue sphere that can be found while digging.
+#-------------------------------
+[PRISMSPHERE1]
+Name = Tiny Prism Sphere
+NamePlural = Tiny Prism Spheres
+Pocket = 1
+Price = 250
+Flags = Fling_20
+Description = A prism sphere that can be found while digging.
+#-------------------------------
+[PALESPHERE1]
+Name = Tiny Pale Sphere
+NamePlural = Tiny Pale Spheres
+Pocket = 1
+Price = 250
+Flags = Fling_20
+Description = A pale sphere that can be found while digging.
+#-------------------------------
+[GREENSPHERE2]
+Name = Large Green Sphere
+NamePlural = Large Green Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = A large green sphere that can be found while digging.
+#-------------------------------
+[REDSPHERE2]
+Name = Large Red Sphere
+NamePlural = Large Red Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = A large red sphere that can be found while digging.
+#-------------------------------
+[BLUESPHERE2]
+Name = Large Blue Sphere
+NamePlural = Large Blue Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = A large blue sphere that can be found while digging.
+#-------------------------------
+[PRISMSPHERE2]
+Name = Large Prism Sphere
+NamePlural = Large Prism Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = A large prism sphere that can be found while digging.
+#-------------------------------
+[PALESPHERE2]
+Name = Large Pale Sphere
+NamePlural = Large Pale Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_50
+Description = A large pale sphere that can be found while digging.
+#-------------------------------
+[LINKSTONE]
+Name = Link Stone
+NamePlural = Link Stones
+Pocket = 1
+Price = 2100
+FieldUse = OnPokemon
+Flags = Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a link cable pattern.
+#-------------------------------
+[ICEBALL]
+Name = Ice Ball
+NamePlural = Ice Balls
+Pocket = 1
+Price = 100
+Flags = Fling_30
+Description = An item to be held by CCirno. It is a frozen orb that raises the Attack and Sp. Atk stat.
+#-------------------------------
+[NYUUDOUFIST]
+Name = Nyuudou Fist
+NamePlural = Nyuudou Fist
+Pocket = 1
+Price = 10
+Flags = Fling_40
+Description = An item to be held by Chibi and Normal Ichirin. It is a pair of gloves that boosts their critical-hit ratio.
+#-------------------------------
+[CURSEDRIBBON]
+Name = Cursed Ribbon
+NamePlural = Cursed Ribbons
+Pocket = 1
+Price = 500
+Flags = Fling_90
+Description = An item to be held by the Hina line. It is a ribbon full of curses that boosts their Attack stat.
+#-------------------------------
+[ICESTONE]
+Name = Ice Stone
+NamePlural = Ice Stones
+Pocket = 1
+Price = 3000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.
+#-------------------------------
+[POWERGOGGLES]
+Name = Power Goggles
+NamePlural = Power Goggles
+PortionName = pair of Power Goggles
+PortionNamePlural = pairs of Power Goggles
+Pocket = 1
+Price = 200
+Flags = Fling_10
+Description = An item to be held. These curious goggles boost Sp. Atk but allows the use of only one move.
+#-------------------------------
+[POWERCAPE]
+Name = Power Cape
+NamePlural = Power Capes
+Pocket = 1
+Price = 200
+Flags = Fling_10
+Description = An item to be held. This cape boosts Speed but allows the use of only one move.
+#-------------------------------
+[FIRERIBBON]
+Name = Fire Ribbon
+NamePlural = Fire Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of fire. When held, it strengthens the power of a Fire-type move once per battle.
+#-------------------------------
+[WATERRIBBON]
+Name = Water Ribbon
+NamePlural = Water Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of water. When held, it strengthens the power of a Water-type move once per battle.
+#-------------------------------
+[ELECTRICRIBBON]
+Name = Electric Ribbon
+NamePlural = Electric Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of electricity. When held, it strengthens the power of an Electric-type move once per battle.
+#-------------------------------
+[GRASSRIBBON]
+Name = Grass Ribbon
+NamePlural = Grass Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of nature. When held, it strengthens the power of a Grass-type move once per battle.
+#-------------------------------
+[ICERIBBON]
+Name = Ice Ribbon
+NamePlural = Ice Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of ice. When held, it strengthens the power of an Ice-type move once per battle.
+#-------------------------------
+[FIGHTINGRIBBON]
+Name = Fighting Ribbon
+NamePlural = Fighting Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of combat. When held, it strengthens the power of a Fighting-type move once per battle.
+#-------------------------------
+[POISONRIBBON]
+Name = Poison Ribbon
+NamePlural = Poison Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of poison. When held, it strengthens the power of a Poison-type move once per battle.
+#-------------------------------
+[GROUNDRIBBON]
+Name = Ground Ribbon
+NamePlural = Ground Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of land. When held, it strengthens the power of a Ground-type move once per battle.
+#-------------------------------
+[FLYINGRIBBON]
+Name = Flying Ribbon
+NamePlural = Flying Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of air. When held, it strengthens the power of a Flying-type move once per battle.
+#-------------------------------
+[PSYCHICRIBBON]
+Name = Psychic Ribbon
+NamePlural = Psychic Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of the mind. When held, it strengthens the power of a Psychic-type move once per battle.
+#-------------------------------
+[BUGRIBBON]
+Name = Bug Ribbon
+NamePlural = Bug Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an insect-like essence. When held, it strengthens the power of a Bug-type move once per battle.
+#-------------------------------
+[ROCKRIBBON]
+Name = Rock Ribbon
+NamePlural = Rock Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of rock. When held, it strengthens the power of a Rock-type move once per battle.
+#-------------------------------
+[GHOSTRIBBON]
+Name = Ghost Ribbon
+NamePlural = Ghost Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with a spectral essence. When held, it strengthens the power of a Ghost-type move once per battle.
+#-------------------------------
+[DRAGONRIBBON]
+Name = Dragon Ribbon
+NamePlural = Dragon Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with a draconic essence. When held, it strengthens the power of a Dragon-type move once per battle.
+#-------------------------------
+[DARKRIBBON]
+Name = Dark Ribbon
+NamePlural = Dark Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of darkness. When held, it strengthens the power of a Dark-type move once per battle.
+#-------------------------------
+[STEELRIBBON]
+Name = Steel Ribbon
+NamePlural = Steel Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an essence of steel. When held, it strengthens the power of a Steel-type move once per battle.
+#-------------------------------
+[NORMALRIBBON]
+Name = Normal Ribbon
+NamePlural = Normal Ribbons
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = An ornate ribbon with an ordinary essence. When held, it strengthens the power of a Normal-type move once per battle.
+#-------------------------------
+[OCCAPENDANT]
+Name = Occa Pendant
+NamePlural = Occa-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Fire-type attack against the holder once per battle.
+#-------------------------------
+[PASSHOPENDANT]
+Name = Passho Pendant
+NamePlural = Passho-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Water-type attack against the holder once per battle.
+#-------------------------------
+[WACANPENDANT]
+Name = Wacan Pendant
+NamePlural = Wacan-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Electric-type attack against the holder once per battle.
+#-------------------------------
+[RINDOPENDANT]
+Name = Rindo Pendant
+NamePlural = Rindo-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Grass-type attack against the holder once per battle.
+#-------------------------------
+[YACHEPENDANT]
+Name = Yache Pendant
+NamePlural = Yache-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Ice-type attack against the holder once per battle.
+#-------------------------------
+[CHOPLEPENDANT]
+Name = Chople Pendant
+NamePlural = Chople-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Fighting-type attack against the holder once per battle.
+#-------------------------------
+[KEBIAPENDANT]
+Name = Kebia Pendant
+NamePlural = Kebia-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Poison-type attack against the holder once per battle.
+#-------------------------------
+[SHUCAPENDANT]
+Name = Shuca Pendant
+NamePlural = Shuca-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Ground-type attack against the holder once per battle.
+#-------------------------------
+[COBAPENDANT]
+Name = Coba Pendant
+NamePlural = Coba-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Flying-type attack against the holder once per battle.
+#-------------------------------
+[PAYAPAPENDANT]
+Name = Payapa Pendant
+NamePlural = Payapa-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Psychic-type attack against the holder once per battle.
+#-------------------------------
+[TANGAPENDANT]
+Name = Tanga Pendant
+NamePlural = Tanga-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Bug-type attack against the holder once per battle.
+#-------------------------------
+[CHARTIPENDANT]
+Name = Charti Pendant
+NamePlural = Charti-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Rock-type attack against the holder once per battle.
+#-------------------------------
+[KASIBPENDANT]
+Name = Kasib Pendant
+NamePlural = Kasib-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Ghost-type attack against the holder once per battle.
+#-------------------------------
+[HABANPENDANT]
+Name = Haban Pendant
+NamePlural = Haban-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Dragon-type attack against the holder once per battle.
+#-------------------------------
+[COLBURPENDANT]
+Name = Colbur Pendant
+NamePlural = Colbur-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Dark-type attack against the holder once per battle.
+#-------------------------------
+[BABIRIPENDANT]
+Name = Babiri Pendant
+NamePlural = Babiri-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a supereffective Steel-type attack against the holder once per battle.
+#-------------------------------
+[CHILANPENDANT]
+Name = Chilan Pendant
+NamePlural = Chilan-Infused Pendants
+Pocket = 5
+Price = 15000
+Description = An infused pendant that weakens a Normal-type attack against the holder once per battle.
+#-------------------------------
+[DAMASCUSSPHERE]
+Name = Damascus Sphere
+NamePlural = Damascus Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Metal-type moves.
+#-------------------------------
+[TERRASPHERE]
+Name = Terra Sphere
+NamePlural = Terra Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Earth-type moves.
+#-------------------------------
+[FERALSPHERE]
+Name = Feral Sphere
+NamePlural = Feral Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Beast-type moves.
+#-------------------------------
+[GROWTHSPHERE]
+Name = Growth Sphere
+NamePlural = Growth Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Nature-type moves.
+#-------------------------------
+[TRUSTSPHERE]
+Name = Trust Sphere
+NamePlural = Trust Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Heart-type moves.
+#-------------------------------
+[SINSPHERE]
+Name = Sin Sphere
+NamePlural = Sin Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Umbral-type moves.
+#-------------------------------
+[GUSTSPHERE]
+Name = Gust Sphere
+NamePlural = Gust Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Wind-type moves.
+#-------------------------------
+[CORROSIONSPHERE]
+Name = Corrosion Sphere
+NamePlural = Corrosion Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Miasma-type moves.
+#-------------------------------
+[FLOODSPHERE]
+Name = Flood Sphere
+NamePlural = Flood Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Hydro-type moves.
+#-------------------------------
+[FLIGHTSPHERE]
+Name = Flight Sphere
+NamePlural = Flight Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Aero-type moves.
+#-------------------------------
+[FROSTSPHERE]
+Name = Frost Sphere
+NamePlural = Frost Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Cryo-type moves.
+#-------------------------------
+[SOULSPHERE]
+Name = Soul Sphere
+NamePlural = Soul Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Nether-type moves.
+#-------------------------------
+[KNOWLEDGESPHERE]
+Name = Knowledge Sphere
+NamePlural = Knowledge Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Reason-type moves.
+#-------------------------------
+[BLAZESPHERE]
+Name = Blaze Sphere
+NamePlural = Blaze Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Pyro-type moves.
+#-------------------------------
+[VIRTUESPHERE]
+Name = Virtue Sphere
+NamePlural = Virtue Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Faith-type moves.
+#-------------------------------
+[PHANTASMSPHERE]
+Name = Phantasm Sphere
+NamePlural = Phantasm Spheres
+Pocket = 1
+Price = 1000
+Flags = Fling_90
+Description = An item to be held by a Puppet. It is a regal-looking orb that boosts the power of Dream-type moves.
+#-------------------------------
+[HEMATITE]
+Name = Hematite
+NamePlural = Hematites
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Hematite. When held, it strengthens the power of a Metal-type move only once.
+#-------------------------------
+[QUARTZ]
+Name = Quartz
+NamePlural = Quartz
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Quartz. When held, it strengthens the power of a Earth-type move only once.
+#-------------------------------
+[ONYX]
+Name = Onyx
+NamePlural = Onyxes
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Onyx. When held, it strengthens the power of a Beast-type move only once.
+#-------------------------------
+[MALACHITE]
+Name = Malachite
+NamePlural = Malachites
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Malachite. When held, it strengthens the power of a Nature-type move only once.
+#-------------------------------
+[GOLD]
+Name = Gold
+NamePlural = Golds
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Gold. When held, it strengthens the power of a Heart-type move only once.
+#-------------------------------
+[OBSIDIAN]
+Name = Obsidian
+NamePlural = Obsidian
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Obsidian. When held, it strengthens the power of a Umbral-type move only once.
+#-------------------------------
+[JADE]
+Name = Jade
+NamePlural = Jades
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Jade. When held, it strengthens the power of a Wind-type move only once.
+#-------------------------------
+[AMETHYST]
+Name = Amethyst
+NamePlural = Amethysts
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Amethyst. When held, it strengthens the power of a Miasma-type move only once.
+#-------------------------------
+[AQUAMARINE]
+Name = Aquamarine
+NamePlural = Aquamarines
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Aquamarine. When held, it strengthens the power of a Hydro-type move only once.
+#-------------------------------
+[DIAMOND]
+Name = Diamond
+NamePlural = Diamonds
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Diamond. When held, it strengthens the power of an Aero-type move only once.
+#-------------------------------
+[LAPISLAZULI]
+Name = Lapis Lazuli
+NamePlural = Lapis Lazulis
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Lapis Lazuli. When held, it strengthens the power of a Cryo-type move only once.
+#-------------------------------
+[SUGILITE]
+Name = Sugilite
+NamePlural = Sugilites
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Sugilite. When held, it strengthens the power of a Nether-type move only once.
+#-------------------------------
+[OPAL]
+Name = Opal
+NamePlural = Opals
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Opal. When held, it strengthens the power of a Reason-type move only once.
+#-------------------------------
+[GARNET]
+Name = Garnet
+NamePlural = Garnets
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Garnet. When held, it strengthens the power of a Pyro-type move only once.
+#-------------------------------
+[MORGANITE]
+Name = Morganite
+NamePlural = Morganites
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Morganite. When held, it strengthens the power of an Illusion-type move only once.
+#-------------------------------
+[TOPAZ]
+Name = Topaz
+NamePlural = Topazes
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Topaz. When held, it strengthens the power of a Faith-type move only once.
+#-------------------------------
+[MOONSTONEGEM]
+Name = Moonstone
+NamePlural = Moonstones
+Pocket = 1
+Price = 200
+Flags = TypeGem
+Description = A fine cut of Moonstone. When held, it strengthens the power of a Dream-type move only once.
+#-------------------------------
+[HEMATITEHAIRPIN]
+Name = Hematite Hairpin
+NamePlural = Hematite Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Hematite. When held, it strengthens the power of a Metal-type move once per battle.
+#-------------------------------
+[QUARTZHAIRPIN]
+Name = Quartz Hairpin
+NamePlural = Quartz Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Quartz. When held, it strengthens the power of a Earth-type move once per battle.
+#-------------------------------
+[ONYXHAIRPIN]
+Name = Onyx Hairpin
+NamePlural = Onyx Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Onyx. When held, it strengthens the power of a Beast-type move once per battle.
+#-------------------------------
+[MALACHITEHAIRPIN]
+Name = Malachite Hairpin
+NamePlural = Malachite Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Malachite. When held, it strengthens the power of a Nature-type move once per battle.
+#-------------------------------
+[GOLDHAIRPIN]
+Name = Gold Hairpin
+NamePlural = Gold Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Gold. When held, it strengthens the power of a Heart-type move once per battle.
+#-------------------------------
+[OBSIDIANHAIRPIN]
+Name = Obsidian Hairpin
+NamePlural = Obsidian Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Obsidian. When held, it strengthens the power of a Umbral-type move once per battle.
+#-------------------------------
+[JADEHAIRPIN]
+Name = Jade Hairpin
+NamePlural = Jade Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Jade. When held, it strengthens the power of a Wind-type move once per battle.
+#-------------------------------
+[AMETHYSTHAIRPIN]
+Name = Amethyst Hairpin
+NamePlural = Amethyst Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Amethyst. When held, it strengthens the power of a Miasma-type move once per battle.
+#-------------------------------
+[AQUAMARINEHAIRPIN]
+Name = Aquamarine Hairpin
+NamePlural = Aquamarine Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Aquamarine. When held, it strengthens the power of a Hydro-type move once per battle.
+#-------------------------------
+[DIAMONDHAIRPIN]
+Name = Diamond Hairpin
+NamePlural = Diamond Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Diamond. When held, it strengthens the power of an Aero-type move once per battle.
+#-------------------------------
+[LAPISHAIRPIN]
+Name = Lapis Hairpin
+NamePlural = Lapis Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Lapis Lazuli. When held, it strengthens the power of a Cryo-type move once per battle.
+#-------------------------------
+[SUGILITEHAIRPIN]
+Name = Sugilite Hairpin
+NamePlural = Sugilite Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Sugilite. When held, it strengthens the power of a Nether-type move once per battle.
+#-------------------------------
+[OPALHAIRPIN]
+Name = Opal Hairpin
+NamePlural = Opal Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Opal. When held, it strengthens the power of a Reason-type move once per battle.
+#-------------------------------
+[GARNETHAIRPIN]
+Name = Garnet Hairpin
+NamePlural = Garnet Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Garnet. When held, it strengthens the power of a Pyro-type move once per battle.
+#-------------------------------
+[MORGANITEHAIRPIN]
+Name = Morganite Hairpin
+NamePlural = Morganite Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Morganite. When held, it strengthens the power of an Illusion-type move once per battle.
+#-------------------------------
+[TOPAZHAIRPIN]
+Name = Topaz Hairpin
+NamePlural = Topaz Hairpins
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Topaz. When held, it strengthens the power of a Faith-type move once per battle.
+#-------------------------------
+[MOONSTONEHAIRPIN]
+Name = Moonstone Hairpin
+NamePlural = Moonstones Hairpin
+Pocket = 1
+Price = 25000
+Flags = TypeGem
+Description = An ornate hairpin made of Moonstone. When held, it strengthens the power of a Dream-type move once per battle.
+#-------------------------------
+[ANTIMETAL]
+Name = Anti-Metal Charm
+NamePlural = Anti-Metal Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Metal-type attack against the holder once per battle.
+#-------------------------------
+[ANTIEARTH]
+Name = Anti-Earth Charm
+NamePlural = Anti-Earth Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Earth-type attack against the holder once per battle.
+#-------------------------------
+[ANTIBEAST]
+Name = Anti-Beast Charm
+NamePlural = Anti-Beast Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Beast-type attack against the holder once per battle.
+#-------------------------------
+[ANTINATURE]
+Name = Anti-Nature Charm
+NamePlural = Anti-Nature Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Nature-type attack against the holder once per battle.
+#-------------------------------
+[ANTIHEART]
+Name = Anti-Heart Charm
+NamePlural = Anti-Heart Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Heart-type attack against the holder once per battle.
+#-------------------------------
+[ANTIUMBRAL]
+Name = Anti-Umbral Charm
+NamePlural = Anti-Umbral Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Umbral-type attack against the holder once per battle.
+#-------------------------------
+[ANTIWIND]
+Name = Anti-Wind Charm
+NamePlural = Anti-Wind Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Wind-type attack against the holder once per battle.
+#-------------------------------
+[ANTIMIASMA]
+Name = Anti-Miasma Charm
+NamePlural = Anti-Miasma Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Miasma-type attack against the holder once per battle.
+#-------------------------------
+[ANTIHYDRO]
+Name = Anti-Hydro Charm
+NamePlural = Anti-Hydro Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Hydro-type attack against the holder once per battle.
+#-------------------------------
+[ANTIAERO]
+Name = Anti-Aero Charm
+NamePlural = Anti-Aero Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Aero-type attack against the holder once per battle.
+#-------------------------------
+[ANTICRYO]
+Name = Anti-Cryo Charm
+NamePlural = Anti-Cryo Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Cryo-type attack against the holder once per battle.
+#-------------------------------
+[ANTINETHER]
+Name = Anti-Nether Charm
+NamePlural = Anti-Nether Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Nether-type attack against the holder once per battle.
+#-------------------------------
+[ANTIREASON]
+Name = Anti-Reason Charm
+NamePlural = Anti-Reason Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Reason-type attack against the holder once per battle.
+#-------------------------------
+[ANTIPYRO]
+Name = Anti-Pyro Charm
+NamePlural = Anti-Pyro Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Pyro-type attack against the holder once per battle.
+#-------------------------------
+[ANTIILLUSION]
+Name = Anti-Illusion Charm
+NamePlural = Anti-Illusion Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Illusion-type attack against the holder once per battle.
+#-------------------------------
+[ANTIFAITH]
+Name = Anti-Faith Charm
+NamePlural = Anti-Faith Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Faith-type attack against the holder once per battle.
+#-------------------------------
+[ANTIDREAM]
+Name = Anti-Dream Charm
+NamePlural = Anti-Dream Charms
+Pocket = 1
+Price = 15000
+Description = A charm that weakens a supereffective Dream-type attack against the holder once per battle.
+#--------------------------------------
+# Medicine and Consumables
+#--------------------------------------
+[LIQUIDREVIVE]
+Name = Liquid Revive
+NamePlural = Liquid Revives
+PortionName = bottle of Liquid Revive
+PortionNamePlural = bottles of Liquid Revive
+Pocket = 2
+Price = 20000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_40
+Description = A medicine that revitalizes a fainted Pokémon. It fully restores the Pokémon's HP and PP.
+#-------------------------------
+[ABILITYCAPSULE]
+Name = Ability Capsule
+NamePlural = Ability Capsules
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Description = A capsule that allows a Pokémon or Puppet with two Abilities to switch between these Abilities when used.
+#-------------------------------
+[PEWTERCRUNCHIES]
+Name = Pewter Crunchies
+NamePlural = Pewter Crunchies
+PortionName = bag of Pewter Crunchies
+PortionNamePlural = bags of Pewter Crunchies
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Pewter City's famous crunchy snack. They can be used to heal all status conditions of a single Pokémon.
+#-------------------------------
+[GRILLEDLAMPREY]
+Name = Grilled Lamprey
+NamePlural = Grilled Lamprey
+PortionName = skewer of Grilled Lamprey
+PortionNamePlural = skewers of Grilled Lamprey
+Pocket = 2
+Price = 200
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Mystia's specialty, supposedly cures Night Blindness. They can be used to heal one of all status conditions.
+#--------------------------------------
+# Capture Devices
+#--------------------------------------
+[CHERISHORB]
+Name = Cherish Orb
+NamePlural = Cherish Orbs
+Pocket = 3
+Price = 200
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A quite rare Puppet Orb that has been specially crafted to commemorate an occasion of some sort.
+#-------------------------------
+[PUPPETORB]
+Name = Puppet Orb
+NamePlural = Puppet Orbs
+Pocket = 3
+Price = 200
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A device for catching wild Puppets. It is thrown like a ball at the target. Powered by magic and science.
+#-------------------------------
+[GREATORB]
+Name = Great Orb
+NamePlural = Great Orbs
+Pocket = 3
+Price = 600
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A good, high-performance Orb that provides a higher Puppet catch rate than a standard Puppet Orb.
+#-------------------------------
+[ULTRAORB]
+Name = Ultra Orb
+NamePlural = Ultra Orbs
+Pocket = 3
+Price = 1200
+BattleUse = OnFoe
+Flags = PokeBall
+Description = An ultra-performance Orb that provides a higher Puppet catch rate than a Great Orb.
+#-------------------------------
+[MASTERORB]
+Name = Master Orb
+NamePlural = Master Orbs
+Pocket = 3
+Price = 0
+BattleUse = OnFoe
+Flags = PokeBall
+Description = The best Orb with the ultimate level of performance. It will catch any wild Puppets without fail.
+#--------------------------------------
+# Skill Cards and Hidden Skill Cards
+#--------------------------------------
+[SC01]
+Name = SC01
+NamePlural = SC01s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = FOCUSPUNCH18
+Description = Powerful, but makes the user flinch if hit by foe.
+#-------------------------------
+[SC02]
+Name = SC02
+NamePlural = SC02s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = HEARTBREAK18
+Description = Hooks and slashes the foe with long, sharp claws.
+#-------------------------------
+[SC03]
+Name = SC03
+NamePlural = SC03s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = WATERPULSE18
+Description = Generats an ultrasonic wave that may confuse.
+#-------------------------------
+[SC04]
+Name = SC04
+NamePlural = SC04s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = CALMMIND18
+Description = Raises Sp. Atk and So. Def by focusing the mind.
+#-------------------------------
+[SC05]
+Name = SC05
+NamePlural = SC05s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = ROAR18
+Description = A savage roar that makes the foe flee to end the battle.
+#-------------------------------
+[SC06]
+Name = SC06
+NamePlural = SC06s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = TOXIC18
+Description = Poisons the foe with a toxin that gradually worsens.
+#-------------------------------
+[SC07]
+Name = SC07
+NamePlural = SC07s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = RAZORWIND18
+Description = An attack that will always hit the target.
+#-------------------------------
+[SC08]
+Name = SC08
+NamePlural = SC08s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = CURSE18
+Description = Acts differently for Ghost-type puppets.
+#-------------------------------
+[SC09]
+Name = SC09
+NamePlural = SC09s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = DECISION18
+Description = An attack that will always hit the target.
+#-------------------------------
+[SC10]
+Name = SC10
+NamePlural = SC10s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = POISONJAB18
+Description = A jab that may poison the foe.
+#-------------------------------
+[SC11]
+Name = SC11
+NamePlural = SC11s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SUNNYDAY18
+Description = Summons sunlight that beats down for five turns.
+#-------------------------------
+[SC12]
+Name = SC12
+NamePlural = SC12s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = TAUNT18
+Description = Enrages the foe so it can only use attacking moves.
+#-------------------------------
+[SC13]
+Name = SC13
+NamePlural = SC13s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = ICEBEAM18
+Description = Fires an icy cold beam that may freeze the foe.
+#-------------------------------
+[SC14]
+Name = SC14
+NamePlural = SC14s
+Pocket = 4
+Price = 5500
+FieldUse = TM
+Move = BLIZZARD18
+Description = A brutal snow-and-wind attack that may freeze the foe.
+#-------------------------------
+[SC15]
+Name = SC15
+NamePlural = SC15s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SONICBOOM18
+Description = An attack that may lower Special Defense.
+#-------------------------------
+[SC16]
+Name = SC16
+NamePlural = SC16s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = LIGHTSCREEN18
+Description = Creates a wall of light that lowers Sp. Atk damage.
+#-------------------------------
+[SC17]
+Name = SC17
+NamePlural = SC17s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = DETECT18
+Description = Negates all damage but may faill if used in succession.
+#-------------------------------
+[SC18]
+Name = SC18
+NamePlural = SC18s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = RAINDANCE18
+Description = Summons a heavy rainstorm lasting for 5 turns.
+#-------------------------------
+[SC19]
+Name = SC19
+NamePlural = SC19s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = GIGADRAIN18
+Description = Recovers half the HP of the damage this move inflicts.
+#-------------------------------
+[SC20]
+Name = SC20
+NamePlural = SC20s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SAFEGUARD18
+Description = Prevents status abnormality with a mystical power.
+#-------------------------------
+[SC21]
+Name = SC21
+NamePlural = SC21s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SIGNALBEAM18
+Description = A strange beam that may confuse the foe.
+#-------------------------------
+[SC22]
+Name = SC22
+NamePlural = SC22s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SOLARBEAM18
+Description = Absorbs sunlight in the 1st turn, then attacks next turn.
+#-------------------------------
+[SC23]
+Name = SC23
+NamePlural = SC23s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = STEELFIST18
+Description = Slams the foe with a hard fist. It may lower defense.
+#-------------------------------
+[SC24]
+Name = SC24
+NamePlural = SC24s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = THUNDERBOLT18
+Description = A powerful electric attack that may cause paralysis.
+#-------------------------------
+[SC25]
+Name = SC25
+NamePlural = SC25s
+Pocket = 4
+Price = 5500
+FieldUse = TM
+Move = THUNDER18
+Description = Strikes the foe with a thunderbolt. It may paralyze.
+#-------------------------------
+[SC26]
+Name = SC26
+NamePlural = SC26s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = EARTHQUAKE18
+Description = Causes a quake that has no effect on flying types.
+#-------------------------------
+[SC27]
+Name = SC27
+NamePlural = SC27s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = RETURN18
+Description = The more the user likes you, the more powerful this move is.
+#-------------------------------
+[SC28]
+Name = SC28
+NamePlural = SC28s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = DIG18
+Description = Digs underground the first turn, then strikes the next turn.
+#-------------------------------
+[SC29]
+Name = SC29
+NamePlural = SC29s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = MANABURST18
+Description = A powerful psychic attack that may lower Sp. Def.
+#-------------------------------
+[SC30]
+Name = SC30
+NamePlural = SC30s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SHADOWBALL18
+Description = Hurls a dark lump at the foe. It may lower Sp. Def.
+#-------------------------------
+[SC31]
+Name = SC31
+NamePlural = SC31s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = BRICKBREAK18
+Description = Destroys barriers like Light Screen and causes damage.
+#-------------------------------
+[SC32]
+Name = SC32
+NamePlural = SC32s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = DOUBLETEAM18
+Description = Creates illusory copies to enhance evasiveness.
+#-------------------------------
+[SC33]
+Name = SC33
+NamePlural = SC33s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = REFLECT18
+Description = Creates a wall of light that weakenes physical attacks.
+#-------------------------------
+[SC34]
+Name = SC34
+NamePlural = SC34s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = ENERGYBALL18
+Description = A ball of energy that may lower Special Defense.
+#-------------------------------
+[SC35]
+Name = SC35
+NamePlural = SC35s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = FLAMETHROWER18
+Description = Looses a stream of fire that may burn the foe.
+#-------------------------------
+[SC36]
+Name = SC36
+NamePlural = SC36s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = POISONBOMB18
+Description = Hurls sludge at the foe. It may poison the foe.
+#-------------------------------
+[SC37]
+Name = SC37
+NamePlural = SC37s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = PSYCHOCUT18
+Description = A mental slash with a hiher critical hit rate.
+#-------------------------------
+[SC38]
+Name = SC38
+NamePlural = SC38s
+Pocket = 4
+Price = 5500
+FieldUse = TM
+Move = FIREBLAST18
+Description = A powerful fire attack that may burn the foe.
+#-------------------------------
+[SC39]
+Name = SC39
+NamePlural = SC39s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = ROCKTOMB18
+Description = Stops the foe from moving with rocks. May lower Speed.
+#-------------------------------
+[SC40]
+Name = SC40
+NamePlural = SC40s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SWAGGER18
+Description = Confuses the foe while sharply raising attack.
+#-------------------------------
+[SC41]
+Name = SC41
+NamePlural = SC41s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = WILLOWISP18
+Description = A weak fire attack that inflicts a burn.
+#-------------------------------
+[SC42]
+Name = SC42
+NamePlural = SC42s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = FACADE18
+Description = Power raises when poisoned, burned, or paralyzed.
+#-------------------------------
+[SC43]
+Name = SC43
+NamePlural = SC43s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SECRETPOWER18
+Description = Adds an effect to attack depending on the location.
+#-------------------------------
+[SC44]
+Name = SC44
+NamePlural = SC44s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = REST18
+Description = The user sleeps for 2 turns to restore health and status.
+#-------------------------------
+[SC45]
+Name = SC45
+NamePlural = SC45s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = ATTRACT18
+Description = Makes it tough to attack a foe of the opposite gender.
+#-------------------------------
+[SC46]
+Name = SC46
+NamePlural = SC46s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = THIEF18
+Description = While attacking, it may steal the foe's held item.
+#-------------------------------
+[SC47]
+Name = SC47
+NamePlural = SC47s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = STEELWING18
+Description = Spreads hard-edged wings and slams into the foe.
+#-------------------------------
+[SC48]
+Name = SC48
+NamePlural = SC48s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SKILLSWAP18
+Description = Switches abilities with the foe on the turn this is used.
+#-------------------------------
+[SC49]
+Name = SC49
+NamePlural = SC49s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = SNATCH18
+Description = Steals the effects of the move the foe is trying to use.
+#-------------------------------
+[SC50]
+Name = SC50
+NamePlural = SC50s
+Pocket = 4
+Price = 3000
+FieldUse = TM
+Move = MINDBOMB18
+Description = A mental attack that hits harder on some stronger foes.
+#-------------------------------
+[HC01]
+Name = HC01
+NamePlural = HC01s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = CUT18
+Description = Attacks the foe with sharp blades or claws. It can also be used to cut down thin trees.
+#-------------------------------
+[HC02]
+Name = HC02
+NamePlural = HC02s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = FLY18
+Description = Flies up on the first turn, then attacks next turn. Can also be used to quick travel to visited locations.
+#-------------------------------
+[HC03]
+Name = HC03
+NamePlural = HC03s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = SURF18
+Description = Creates a huge wave, then crashes it down on the foe. Can also be used to traverse water.
+#-------------------------------
+[HC04]
+Name = HC04
+NamePlural = HC04s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = STRENGTH18
+Description = Builds enormous power, then slams the foe. Can also be used to push boulders.
+#-------------------------------
+[HC05]
+Name = HC05
+NamePlural = HC05s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = FLASH18
+Description = Looses a powerful blast of light that reduces Accuracy. Can also illuminate dark areas.
+#-------------------------------
+[HC06]
+Name = HC06
+NamePlural = HC06s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = ROCKSMASH18
+Description = A rock-crushingly tough attack that may lower Defense. Can also be used to shatter rocks.
+#-------------------------------
+[HC07]
+Name = HC07
+NamePlural = HC07s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = WATERFALL18
+Description = Attacks the foe with enough power to climb waterfalls. Can also be used to climb waterfalls.
+#-------------------------------
+[HC08]
+Name = HC08
+NamePlural = HC08s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = SHADOWDIVE18
+Description = Dives in shadows the 1st turn, then attacks the next turn. Can also be used to dive under water.
+#-------------------------------
+[HC09]
+Name = HC09
+NamePlural = HC09s
+Pocket = 4
+Price = 0
+FieldUse = HM
+Move = WHIRLPOOL18
+Description = Ensnares the foe in a vortex of water for up to 5 turns. Can also be used to navigate whirlpools.
+#--------------------------------------
+# Key Items
+#--------------------------------------
+[AXE]
+Name = Axe
+NamePlural = Axes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A small tool used to cut down small road-side trees.
+#-------------------------------
+[LANTERN]
+Name = Lantern
+NamePlural = Lanterns
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A retro-themed lantern that runs on batteries. It can be used to illuminate dark caves.
+#-------------------------------
+[PICKAXE]
+Name = Pickaxe
+NamePlural = Pickaxes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A tool used to pick apart rocks.
+#-------------------------------
+[BOAT]
+Name = Boat
+NamePlural = Boats
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An inflatable boat that can be used to cross bodies of water.
+#-------------------------------
+[HOOK]
+Name = Grappling Hook
+NamePlural = Grappling Hooks
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A hookshot that can be used to reach higher places.
+#-------------------------------
+[DIVEGEAR]
+Name = Diving Gear
+NamePlural = Diving Gear
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A set of gear used for diving under the water.
+#-------------------------------
+[TELEPORTER]
+Name = Mini Teleporter
+NamePlural = Mini Teleporters
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A device which allows you to teleport to locations within a region.
+#-------------------------------
+[GAUNTLETS]
+Name = Iron Gauntlets
+NamePlural = Iron Gauntlets
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A pair of gloves that will endow the wearer with the strength to push boulders.
+#-------------------------------
+[EXPALL]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Turning on this special device will allow all party members to receive Exp. Points from battles.
+#-------------------------------
+[EXPALLOFF]
+Name = Exp. Share
+NamePlural = Exp. Shares
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Turning on this special device will allow all party members to receive Exp. Points from battles.
+#-------------------------------
+[POTATO]
+Name = Potato
+NamePlural = Potatoes
+Pocket = 2
+Price = 40
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_20
+Description = A regular Potato. It may be used or held to heal the user by 20 HP. Better when baked.
+#-------------------------------
+[BAKEDPOTATO]
+Name = Baked Potato
+NamePlural = Baked Potatoes
+Pocket = 2
+Price = 100
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A baked Potato. It may be used or held to heal the user by 80 HP, as well as recovering from any status problem.
+#-------------------------------
+[STEALTHCHARM]
+Name = Stealth Charm
+NamePlural = Stealth Charms
+Pocket = 1
+Price = 200
+Flags = Fling_30
+Description = An item to be held. It will prevent any wild encounter from being triggered if the holder is in the first party slot.

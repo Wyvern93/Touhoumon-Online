@@ -1,0 +1,456 @@
+--- Touhoumon Essentials ---
+---     Version  3.0     ---
+
+--- V3.0: Rebooted Development ---
+January 18~19th, 2020:
+- Made spreadsheets for the Abilities, Moves, and Items
+	(As a side note, the Moves might be slightly wrong. Will require multi-checking)
+- Changed various things in the Settings, all marked
+	(As a further note, anything that's been changed/added will be denoted with Derx or Derxwna in the code)
+- Added in the functionality to allow Self Switches to be set across maps
+- Added in the Egg Groups for the Puppets to differentiate them
+- Created a folder in Graphics/Pictures for Touhoumon Essentials dedicated graphics called "Thmn Icons"
+- Added in the Yin/Yang Icon for Puppets to the Thmn Icons folder
+- Made it so that that the Yin/Yang icons show up In-Battle for species over 493 (Arceus)
+- Made it so the Touhoumon types have placeholder battle animations
+- Added in the Capture Fanfare theme
+- Added in the ability to define an audio track to go along with specific weathers
+- Added in the flavor text for Territorial Battles
+- Added in the flavor text for Hisouten and Unconcious
+- Added in Infectious
+- Added in Poison Body
+- Added in Doll Wall and Retribution
+- Added in Mysterious
+- Added in Gehaburn
+- Added in the functionality for Curse's interaction with Touhoumon Ghost
+- Added in Airborne immunity to Earth moves
+- Added in Play Ghost
+- Piggybacked Jealousy off of Stench
+- Added in handling for Frozen status and Touhoumon Fire
+- Piggybacked the Choice Band code to add in Bloomers and Power Ribbon handling
+- Added in Poison Resistance and Synchronize Poison Resistance for Miasma and Touhoumon Steel
+- Added in Poison Spikes resistance for Miasma and Touhoumon Steel
+- Added in Burn resistance for Touhoumon Fire
+- Added in the code to allow anyone with the ability Diva to successfully use Attract on any Gender
+- Piggybacked off Clear Body and White Smoke's code for Hakurei Miko and Barrier
+- Piggybacked off of Hypercutter's code for Hi Strength
+- Added Hakurei Miko, Barrier, and Hi Strength to Intimidate's resists
+- Added handling for Storm Drain and Lightning Rod with Touhoumon Water and Wind
+- Added handling for Dry Skin, Volt Absorb, and Water Absorb handling with Touhoumon Water and Wind
+- Added handling for Flash Fire and Touhoumon Fire
+- Added in Guard Armor
+- Added in Earth, Beast, and Touhoumon Steel to Sand Force's interaction table
+- Added in Heatproof's interactions with Touhoumon Fire
+- Added in Ice Wall
+- Added in Touhoumon Fire and Ice interactions with Thick Fat
+- Added om Touhoumon Fire interactions with Dry Skin
+- Added in the Type-Boosting Costumes
+- Added in Incense interactions with Touhoumon Types
+- Added in functionality for Charge effect with Wind-type moves
+- Made it so Water Sport and Mud Sport weaken Thmn!Fire and Wind, respectively
+- Made it so Overgrow, Blaze, Torrent, and Inner Power boost their respective Touhoumon Types
+- Added in functionality for Unzan
+- Added in the Kusanagi
+- Made it so the Beats Type has raised defense in Sandstorms
+- Added in the Mirror of Yata
+- Added in interactions for Sun/Rain and their heavy equivalents for Touhoumon Fire and Water
+- Added in the Focus Ribbon
+
+- Added in Recollection to Assist and Metronome's blacklist
+	CHECK OVER THE FUNCTION CODE FOR RECOLLECTION AFTER YOU ADD IN THE MOVE FUNCTION. IT MAY (WILL!!!!!!) BE DIFFERENT
+- Added in the functionality for Rage, Lock-On, Mana Shield, Thrash, and Recollection
+- Added in flavor text for thrown balls in territorial battles
+- Added in checks for Unconcious and Hisouten for weather in-battle
+- Added in more flavor text for Territorial battles
+- Added in handling for Thmn!Ghost to be able to flee from battle... I think? It's for Gen 5+ Battle Mechanics, which can be switched off so idk
+- Added in pronoun neutral text for swapping out Pokemon and Puppets
+- Added in the Donation Box
+- Added in a line to neutralify Shadow Pokemon/Puppet encounters.
+	Currently commented out because I need to figure out how to get the line to work...
+- Added in more flavor text for Teritorial Battles
+- Added in handling for the "Make the first wild encounter you find Shiny" passcode
+- Added in Sandstorm immunity for Touhoumon types
+- Added in Hail resistance for Thmn!Ice
+- Added in handling for Maintenance where Shed Skin was
+- Various AI changes
+	This isn't done, as some things weren't accounted for in the old code. I will have to comb through the AI later
+- Added in several overworld handlers for Touhoumon abilities
+- Added a sound effect for berry plucking in the code
+- Added in a better method for Debug hatching eggs
+- Added in Deo's Day/Night tones
+- Added sound effects to the item finder in the code
+- Added in Liquid Revive
+- Added in the basic Puppet Orbs
+- Added in functionality for Touhoumon Water and Beast to the Net Ball
+- Added in Moon Ball functionality with Moon-Associated Puppets
+- Added in functionality for the Puppet Orbs (And Safari Ball I guess???)
+- Added in the Touhoumon evolution theme
+	Maybe make it so Pokemon and Puppets have their own Evolution theme
+- Made it so the Pause Menu says Party instead of Pokemon
+- Added in icons for Pokemon and Puppets to the party interface
+- Added term neutralization in the Party Menu
+- Added in more icons for the Pokemon and Puppets in the summary interface
+- Added music to the continue screen
+- Added Fire Veil to egg hatching information
+- Added music to the trading interface
+- Added a sound effect for mart transactions
+- Changed the line when you talk to a mart attendant
+- Changed the Hall of Fame music
+- Changed it so Triple Triad cards cost coins instead of money
+- Commented out lines in Main in regards to the debug intro
+- Fixed a few parenthetical bugs on compiling
+- Fixed a section that didn't properly have an end statement
+
+January 20th, 2020:
+- Fixed bugs so that the Yin/Yang icon will appear on the Summary and Party Menus
+	* The graphic for the Yin/Yang icons need to be adjusted a fair bit though so they line up better on the interfaces. Reference these pictures:
+	* https://i.imgur.com/CUm2kdU.png \__ Summary Menu
+	* https://i.imgur.com/R7gYCKL.png /
+	* https://i.imgur.com/rHomK7O.png Party Menu
+- Properly alligned the Yin/Yang icons on the Summary and Party Menu interfaces
+- Added a Splash Screen
+- Added in music for the splash screen and continue screen
+- Made it so the audio fades out on the continue screen when selecting New Game/Continue
+- Added in various graphics
+- Ported over Renko and Maribel's graphics for the protagonist sprites
+- Moved around sprites to make room for Renko and Maribel
+- Lowered the volume for the Splash and Continue screen tracks
+- Added in a bunch of PBS files
+- Added in the sprites for DLwRuukoto and Nepgear
+- Added DLwRuukoto to Pokemonforms.txt
+- Gave DLwRuukoto a unique move, Checkmaid (Thanks Agastya)
+
+January 21st, 2020:
+- Added in cries for all the Puppets
+- Fixed description length for Retribution
+- Fixed a bug where there was a second OR statement in Hyper Cutter and Unnatural Strength's code, which caused every ability to prevent Attack loss.
+- Added in Ice Ball, Dark Ribbon, and Nyuudo Fist to the code
+- Added Kusanagi and Mirror of Yata info to the AI
+- Added in Focus to the code to allow for better chances at finding Wild Encounters with items
+	As this is not canonical, I have commented it out for consistency's sake
+- Modified the Pickup Table to add in Purple's Pickup Table
+- Added in the strings and checks to differentiate Pokemon from Puppets in the Pokedex
+	MissingNo uses the Puppet kind attribution, I'll look into that some other time
+- Neutralized almost all of the remaining text that refered to Pokemon in the scripts.
+- Made the Yin/Yang symbols show up on the PC Screen for Puppets
+
+January 22nd, 2020:
+- Made it so the Yin and Yang icons show up on the Day Care Selection Box, coding efforts done by Vendily
+	A lot of changes were made for this to happen. Despite the changes being documented in the code, a pastebin of the relevant changes can be found here https://pastebin.com/Tbe5DuxG
+- Added Shadow Bound to the code so Satori didn't use Pokemon Shadow Tag when 1.8 Shadow Tag was Arena Trap
+- Added Advent to the code, piggybacking off of Shield Dust's entries
+- Added Collector into the code
+- Added checks for the Pinch Abilities to the AI
+- Added checks for Fire Veil users to prevent being frozen
+- Added in more checks for Flash Fire
+- Added in checks for Focus
+- Added in checks for Fretful
+- Made it so Yin/Yang icons show up on the Hall of Fame screen
+- Added Hakurei Miko into more areas
+- Added icons to the Pokedex for the 1.8 types
+- Added a form name to regular Ruukoto in the dex
+- Added Shiny/Backsprites for some of the AI Puppets (Adam from the TPDP Server/Reimufate)
+- Added text in the Pokedex that says "Yin" and "Yang" for the Puppets
+- Added more checks for Touhoumon Flying and Levitate
+- Added in more functionality between Lightningrod and Wind, as well as an additional check for Storm Drain and Touhoumon Water
+- Added in more checks for Magic Barrier
+- Added in more checks for Play Ghost
+- Added in functionality for Spring Charm
+- Made it so Static will allow you to find wild Wind Puppets
+- Added Strange Mist to the code
+- Made it so Cursed Stab is recognised by the AI
+- Finished off the checks for Unnatural Strength
+- Renamed Hi Strength to Unnatural Strength in the Abilities text file
+- Added in more checks for Unzan
+- Added checks for Wall of Ice
+- Added functionality in the AI for Mud Sport, Water Sport, and Charge to check for Touhoumon Fire and Wind
+- To knowledge, all abilities shoud be done by this point
+- Added the script to make Sideways Stairs work when bound to a Terrain Tag
+	Script done by Marty152 on PokeCommunity (https://www.pokecommunity.com/showthread.php?t=398998)
+- Ported over changes necessary to get Pre-Battle Transitions with Common Events to work
+	Fixes to the scripts for this were done by Maruno
+- Added in a way to display names above text boxes
+	I do not remember who made this code 'cause I'm sure as hell positive it wasn't me
+	Will be using a window skin from this pack (https://reliccastle.com/resources/196/)
+- Added the script to allow the player to skip text
+	Script was provided by Amethyst (https://reliccastle.com/resources/290/)
+- Added some sound effect lines to learning a move for accuracy
+- Added in code that allows the player to hide the level of the AI team during fights
+- Added in the Efficent Water Puddles + Animations script
+	Script was made by Boonzeet (https://reliccastle.com/resources/313/)
+- Added in code that, when raining, allows thunder to occasionally play in the background
+- Ported over the code and sound bytes used for better sounding Cut and Rock Smash events
+- Set the default text speed to Fast and default font to FrLg
+- Ported over code that fixed bugs with the Mart
+- Added the Map Exporter from Klein Studio
+	(https://pokemonfangames.com/resource/map-exporter/)
+- Added the FModEx Plugin and RGSS Linker scripts by Nuru Yuri
+	(https://www.pokecommunity.com/showthread.php?t=349496)
+- Added the Trainer Intro Music script by Nuru Yuri
+- Added in AmbientCries by Vendilly
+	(https://reliccastle.com/threads/432/)
+- Added in a script sections for Custom Transitions handled via Common Events
+- Added in a bunch of graphics from Faith & Prayer and DevKit 1.0 R2
+
+January 23rd, 2020:
+- Did a bunch of work porting over maps from the old DevKit to the new one
+- Added a tileset from F&P because I was lazy (I will edit it when I have more time and energy...)
+- Added a track or two
+- Added in more sprites by Adam and Prinny
+- Added in a Primal Dialga pallet for AI Dialga
+- Added in a bunch of tracks
+- Added in trainer classes
+
+January 24th, 2020:
+- A bunch of stuff, I can't remember...
+- Added in the common event for the Passcode System
+- Did some tweaks to Nue's dialogue
+- Did some work on the intro segment of the DevKit microgame
+
+January 25th, 2020:
+- Added encounters to the DevKit maps
+- Added a cave to Isolated Woods that serves as a rest stop
+
+January 26th, 2020:
+- Ported over the Renko and Maribel sprites to use in the Pokemon Essentials intro
+- Set up the Sariel Vs. Transition
+
+January 27th-28th, 2020:
+- Added in the Vs. Transition for Nue
+- Made a separate folder for Vs. Transition graphics to keep the pictures folder clean
+- Modified the common event for Vs. Transitions to read graphics from the new folders
+
+January 29th, 2020:
+- Added in the remaining Vs. Transitions
+- Tweaked The Collector's dialogue in the champion right
+- Added in missing sound effeects
+- Revised the scene after the Credits
+- Revised more misc events with missing sound effects
+- Added EVs to the Collector and the Drones fight
+- Added in the Derxwna rebattle at the Shrine
+- Added in the 200 Puppet Orbs code
+
+January 30th, 2020:
+- Added in a Byakuren overworld sprite, from Zoku Gensokyo Scenario
+
+April 13th, 2020:
+- Modified the Mining Minigame to add in Touhoumon Items and Underground Spheres
+- Added in the Underground Spheres to items.txt
+
+April 14th, 2020:
+- Adjusted the height of all Puppet backsprites so they would be one pixel lower
+- Added the Ice Stone to items.txt
+- Added the icon for the Ice Stone
+- Made it so Glaceon and Leafeon evolve with the Ice Stone and Leaf Stone (as well as the default location based evolution)
+- Made it so basic trade evolution Pokemon evolve with the Link Stone
+- Made the Trade Evolution Items work like Evolution Stones
+- Made it so Pokemon that evolve via trade while holding an item will evolve when that hold item is used on them
+
+April 15th, 2020:
+- Created the Pokemon.txt code for 2hu, AYoumu, DToyohime, and XSuwako
+
+April 16th, 2020:
+- Created the Pokemon.txt code for XUtsuho and XTenshi
+
+April 17th, 2020:
+- Created the Pokemon.txt code for XSendai and XTenma
+
+April 21st, 2020:
+- Made it so all Touhoumon Field Moves are working
+- Made it so the Exploration Items now work in the field
+	* Resource: HM Moves as Items by derFischae (https://www.pokecommunity.com/showthread.php?t=429034)
+	
+April 26th, 2020:
+- Fully renumbered all of the last 10th of the Pokedex to make more sense.
+- Added in the DDC Puppets, Sumireko, 2hu, and a Shard form for Kasen
+	* Sprites were made by Reimufate
+- Added in sprites for the AI Puppets that were missing them
+- Changed Normal Kasen's sprite
+- Revised Normal Kasen's stats
+	Attack -> 105
+	Def    -> 80
+	SDef   -> 115
+- Added in two new moves:
+	* Head Rush (Sekibanki's signature move)
+	* A Touhoumon variant of Glare (Exclusive to Attack Kasen)
+
+April 27th, 2020:
+- Adjusted all the Puppet sprite heights to be 0 instead of -7
+	* This might need to be changed again on a sprite by sprite basis
+- Added cries for all the Puppets after Mamizou in the Pokedex
+- Renumbered existing cries so they matched their new entries
+- Changed A-Vivit's cry to match CVivit and Evolved Vivit's cries
+- Made it so Height and Cost are displayed in metric for the Puppets
+- Fixed the warp between Barrier Cave and the Isolated Woods
+- Fixed the warps for Barrier Cave so the Escape Rope/Dig worked correctly
+- Added level up moves for Chibi Wakasagihime, Wakasagihime, Chibi Sekibanki, and Sekibanki
+- Added Effort Values to Nepgear
+- Added moves to the remaining AI Puppets
+- Adjusted the Cost and Height of MagiStones
+- Adjusted the Cost values of several Puppets to make more sense
+- Added Pokedex entries for Sumireko
+- Added a Pokedex entry to Attack Kasen
+- Added the TM compatability for almost all new Puppets
+	* all that remains is Sumireko line and AKasen
+- Changed the height values for all the garbage data Puppets
+- Changed the internal naming for Touhoumon TMs and HMs to be Skill Cards (SC) and Hidden Cards (HC)
+- Added in icons for the Touhoumon Skill Cards and Hidden Cards
+
+April 28th, 2020:
+- Adjusted the Hatch Speeds for all Puppets so they were consistent with Wiki data
+- Made it so MagiStones had a consistent hatch speed with all Puppets
+- Applied relevant Shape info to all new Puppets
+- Checked over the wiki for entry comparisons
+- Lowered the volume for some tracks
+- Adjusted the loop point for a few tracks
+
+April 29th, 2020:
+- Made the credits file for the DevKit
+- Set up the in-game credits
+
+May 1st, 2020:
+- Tweaked the dexes so there was a Pokemon Pokedex and a Puppet Pokedex
+- Fixed the Pokedex so that the Regional Dexes were working
+
+May 2nd, 2020:
+- Restructured the Search by Type interface of the Pokedex to properly account for Touhoumon Types
+	* This was heavy work and required a lot of restructuring. In the future, when a comparison between a vanilla Essentials version of PScreen_PokedexMain and PScreen_PokedexEntry and a Touhoumon DevKit version of it.
+- Fixed the Search by Weight interface of the Pokedex; bugfix was provided by Maruno
+
+May 3rd, 2020:
+- Dex entries for the remaining Puppets were added, courtesy of Dark from the Hydrogen Discord
+- Added in the remaining evolution methods for Puppets that were missing them
+
+May 4th, 2020:
+- Created the entries for Chibi Sumireko and Normal Sumireko
+- Fixed Hisouten and Unconcious's code so they don't repeat their lines
+- Made it so any Puppet that could learn Shadow Dive via HM in Purple can learn it in the DevKit
+
+May 5th, 2020:
+- Added Lucid Dreaming, TSumireko's unique ability
+- Created the entry for TSumireko and added it to Pokemon.txt
+- Added a Send-Out message for Lucid Dreaming
+- Added TM compatability to the Sumireko line and Attack Kasen
+- Added Egg Moves to Chibi Sumireko
+- Changed out the Youmu in Derxwna's team with Attack Sumireko
+
+--- V3.1: Updating to v18.1.dev of Essentials ---
+Before November 19th, 2020:
+- Added Touhoumon Essentials to Github.
+
+November 19th~20th, 2020:
+- Finished updating to Essentials v18.1.dev
+	* Not everything is finished/working, but it's functional enough to begin bug hunting
+- missing Hall of Fame bg graphic added back in
+- Added back in the applause sound effect to the hall of fame
+- Fixed Renko and Maribel getting stuck in the segment after the League
+- Fixed up code so that Toxic Spikes will be ineffective against Miasma types
+- Tweaked the description for a bunch of Touhoumon items
+- Changed Retribution's activation dialogue for if the ability cut-in setting is on
+- Fixed the bug present in Version 3.0 where the Keyboard Naming Screen was bugged for Puppets
+- Fixed up Cursed Stab and Gehaburn (though, Gehaburn isn't fully complete yet)
+- Added in a function code for Touhoumon Weather Ball
+
+November 21st, 2020:
+- Added Touhoumon-related items to Fling's function code
+- Gave Gehaburn a new batch of flavor text
+- Removed the cut tree in Mulberry Village
+- Removed the extra Ability Capsule entry
+
+November 22nd, 2020:
+- Made it so the Triple Triad minigame uses coins instead of cash
+- Separated the Incense entries into their own definitions so they could boost Touhoumon types
+
+November 23rd, 2020:
+- Fixed the battle backgrounds for the Illusion League
+- Added icons for the Kee and Maranga Berries
+
+November 24th, 2020:
+- Finished rewriting all of the Touhoumon moves to update their targeting, as well as their descriptions
+
+November 26th, 2020:
+- Re-Added in Boonzeet's Puddle Script
+- Fixed up Liquid Revive
+- Added Diva to the attract interaction code
+- Added in an icon for the Diving Gear, from the OrAs icon for the Dive Gear
+
+November 27th, 2020:
+- Ported back in the new sounds from v18, ported over the unique sounds in v17
+- Slightly cleaned up the randomized load background code so it's easier to edit
+- Removed the Font Installer code, because I was tired of the message, and it was deleted in the InDev version of Essentials
+- Added Overseer Household to the credits of the DevKit
+	- might or might not stick, idk yet
+- Updated the HM Items script to v18 terminology changes
+- Made changes to HMItems to make Touhoumon Field Moves work, probably
+- Added a check for Trick and Switcheroo to make them fail against the Collector ability
+- Properly enabled Diva for use in the DevKit, because why not!
+
+November 28th, 2020:
+- Gave various Puppets their correct abilities
+- Fixed Flash Fire so that it was properly boosting Fire and Touhoumon Fire
+- Finalized ability testing. Presumably every ability should be working.
+- Changed up how Pokemon and Touhoumon are defined to allow a more adaptable and editable system
+	* Pokemon.txt now has a new valid field called "Classification", which defaults to 0. In the scripts, certain lines of code check for whether this value is a 0 or a 1. In Pokemon.txt, all Puppets have a Classification value of 1. When this value is defined, it gives all entries with a value of 1 the various changes exclusive to Puppets (Yin/Yang Gender Icons/Puppet denominator/Weight & Cost/etc). This allows the reimplementation of Gen 5+ Pokemon without needing to edit the values in the code when theres more than 493 Pokemon. This also means you can add additional species and give them a unique classification number, and tweak the code in the scripts to account for if they have unique attributes.
+
+November 29th, 2020:
+- Engage The Asteria Era.
+
+January 26th, 2021:
+* Fixed a bug where the player's turn would repeat if a capture failed.
+* Changed the color of the text on the blackout screen so it's easier to read
+* Manually ported changes from the Essentials Github version that didn't transfer properly
+* Brought over all necessary back-end changes from Asteria
+
+--- V3.2: Updating to v19.1.dev of Essentials ---
+September 2nd, 2021:
+* Begun porting Pokemon.txt and updating the entries to be v19 compatable
+	* Not fully complete but the rest of the changes should, theoretically, be converted thanks to Essentials' code.
+* Ported the other pbs files that have been edited and made them v19 compatable if necessary.
+* Begun porting graphics.
+* Ported the Overworld Weather Sound Effects plugin to v19
+* Ported over changes to SpriteWindow_text
+
+September 3rd, 2021:
+* Ported over the Naming Screen changes for the Yin Yang icon display
+* More script porting changes
+	* I... Really don't think I have it in me to document every script port here, lol. If it's substaintial, maybe.
+
+September 5th, 2021:
+* A brief check in to mention: mark entries that need completion with "(Not Yet Implemented)/(Not Implemented Yet)" so you can look into them in the future.
+
+Between September 3rd and September 8th, 2021:
+* Finished porting over all the scripts, audio, graphics, etc
+* Begun fixing bugs
+
+September 30th, 2021:
+* Fixed an issue where the wrong gender icon was displaying on the keyboard entry nickname screen.
+
+--- V3.3.0: Updating to v20.1 of Essentials ---
+August 15th, 2022:
+* Updated the backend to use Essentials v20.1
+* Backported most of the relevant changes from Asteria to the DevKit
+* Added the updated Name Boxes and Text Skip plugin
+* Added in Marin's Scriptin Utilities, Map Exporter, and Enhanced Jukebox plugins
+* Added in NettoHikari's RMXP Event Exporter plugin
+* Added in Maruno's Tileset Rearranger plugin
+* Added in Aveontrainer's scientist overworld sprite
+
+August 16th, 2022:
+* Added in Mr. Gela's Password script
+* Added in new sprites for the Eiki, Eirin, and Shinki trainer fights
+	* Shinki sprite is made by Reimufate
+	* Eirin sprite is made by HemoglobinA1C
+	* Eiki sprite has an unknown origin, but was touched up by BluShell
+
+--- V3.3.1: Updating to v21 of Essentials ---
+* Updated the backend to use Essentials v21
+* Removed Text Skip.
+* Changed the Pre-Game Intro to make it easier to put text in
+* Added the Reincarnation System, commissioned by myself and made by Golisopod User
+* Added in Graverobber and Potato Harvest, two new abilities
+* Added in code for Seraph's Wings, a Touhoumon variant of Multitype
+* Added in code for Armageddon, a Touhoumon variant of Judgement.
+* Added in Potatoes and Baked Potatoes
+* Added in Stealth Charm, a hold item that completely negates wild encounters.
+* Fixed Liquid Revives.
+* Misc. bugs were caught and fixed.

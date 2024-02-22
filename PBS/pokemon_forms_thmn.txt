@@ -1,0 +1,17 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RUUKOTO,1]
+FormName = Dark Last Word Ruukoto
+Types = STEEL18,QMARKS
+BaseStats = 150,50,160,120,120,160
+Abilities = RETRIBUTION
+Moves = 1,TOXIC18,1,WISH18,1,FAKEOUT18,1,MAGICCOAT18,2,CHECKMAID
+Color = Black
+Pokedex = The ultimate creation of Silph Co., Devon Corp, and an undetermined third party. Designed to be the perfect defensive combat maid.
+Flags = Puppet,Mythical,StageOne,CannotReincarnate
+#-------------------------------
+[AIDIALGA,1]
+FormName = Primal Dialga
+Moves = 1,ROAROFTIME18,1,HYDROPUMP18,1,FIREBLAST18,1,THUNDERBOLT18
+Pokedex = A PokéPuppet version of Dialga that was corrupted during the production phase. Does not take kindly to individuals who seek to corrupt the natural order of time.
+Flags = Puppet,Mythical

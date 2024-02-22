@@ -1,0 +1,111 @@
+#-------------------------------
+[GOLDSTONE]
+Name = Essence of Health
+NamePlural = Essences of Health
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_HP,KeyItem
+Description = A mysterious essence that gives off a healing aura. Holds the Recipient's HP stat in Reincarnation.
+#-------------------------------
+[REDSTONE]
+Name = Essence of Attack
+NamePlural = Essences of Attack
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_ATTACK,KeyItem
+Description = A mysterious essence that gives off a powerful aura. Holds the Recipient's Attack stat in Reincarnation.
+#-------------------------------
+[BLUESTONE]
+Name = Essence of Defense
+NamePlural = Essences of Defense
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_DEFENSE,KeyItem
+Description = A mysterious essence that gives off a defensive aura. Holds the Recipient's Defense stat in Reincarnation.
+#-------------------------------
+[BLACKSTONE]
+Name = Essence of Sp. Atk
+NamePlural = Essences of Sp. Atk
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_SPECIAL_ATTACK,KeyItem
+Description = A mysterious essence that gives off a spiritual aura. Holds the Recipient's Sp.Atk stat in Reincarnation.
+#-------------------------------
+[WHITESTONE]
+Name = Essence of Sp. Def
+NamePlural = Essences of Sp. Def
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_SPECIAL_DEFENSE,KeyItem
+Description = A mysterious essence that gives off a repelling aura. Holds the Recipient's Sp.Def stat in Reincarnation.
+#-------------------------------
+[GREENSTONE]
+Name = Essence of Speed
+NamePlural = Essences of Speed
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone_SPEED,KeyItem
+Description = A mysterious essence that gives off a refreshing aura. Holds the Recipient's Speed stat in Reincarnation.
+#-------------------------------
+[RAINBOWSTONE]
+Name = Stone of Divinity
+NamePlural = Stone of Divinity
+Pocket = 8
+Price = 0
+Flags = ReincarnationStone,KeyItem
+Description = A special stone that gives of divine energy. Increases amount of stats passed down by Donors in Reincarnation.
+#-------------------------------
+[REDMARK]
+Name = Glyph of Attack
+NamePlural = Glyph of Attack
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon_ATTACK,ReincarnationBane_ATTACK,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's Attack is boosted or lowered.
+#-------------------------------
+[BLUEMARK]
+Name = Glyph of Defense
+NamePlural = Glyph of Defense
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon_DEFENSE,ReincarnationBane_DEFENSE,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's Defense is boosted or lowered.
+#-------------------------------
+[BLACKMARK]
+Name = Glyph of Sp. Atk
+NamePlural = Glyph of Sp. Atk
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon_SPECIAL_ATTACK,ReincarnationBane_SPECIAL_ATTACK,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's Sp.Atk is boosted or lowered.
+#-------------------------------
+[WHITEMARK]
+Name = Glyph of Sp. Def
+NamePlural = Glyph of Sp. Def
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon_SPECIAL_DEFENSE,ReincarnationBane_SPECIAL_DEFENSE,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's Sp.Def is boosted or lowered.
+#-------------------------------
+[GREENMARK]
+Name = Glyph of Speed
+NamePlural = Glyph of Speed
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon_SPEED,ReincarnationBane_SPEED,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's Speed is boosted or lowered.
+#-------------------------------
+[GREYMARK]
+Name = Blank Glyph
+NamePlural = Blank Glyph
+Pocket = 8
+Price = 0
+Flags = ReincarnationBoon,ReincarnationBane,KeyItem
+Description = A special glyph used in Reincarnation to determine if the Recipient's nature be Neutral.
+#-------------------------------
+[MAGFRAG]
+Name = Magical Fragment
+NamePlural = Magical Fragments
+Pocket = 1
+Price = 0
+Description = Pieces of crystalized magic created as a result of battle. Used in the Reincarnation process.

@@ -1,0 +1,43 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[000]
+StartMoney = 5000
+StartItemStorage = POTION
+Home = 3,7,5,8
+StorageCreator = Bill
+WildBattleBGM = B-001. Love Colored Master Spark
+TrainerBattleBGM = B-003. Doll Judgement ~ The Girl Who Played With People's Shapes
+WildVictoryBGM = Battle victory wild
+TrainerVictoryBGM = Battle victory trainer
+SurfBGM = U-007. Surf (HgSs Surf)
+BicycleBGM = U-006. Wind God Girl (Bike)
+#-------------------------------
+[1]
+TrainerType = SCRenko
+WalkCharset = trainer_SCRenko
+RunCharset = Renko_run
+CycleCharset = Renko_bike
+SurfCharset = Renko_surf
+DiveCharset = Reko_surf
+FishCharset = Renko_fish_offset
+SurfFishCharset = Renko_fish_offset
+#-------------------------------
+[2]
+TrainerType = SCMary
+WalkCharset = trainer_SCMary
+RunCharset = Maribel_run
+CycleCharset = Maribel_bike
+SurfCharset = Maribel_surf
+DiveCharset = Maribel_surf
+FishCharset = Maribel_fish_offset
+SurfFishCharset = Maribel_fish_offset
+#-------------------------------
+[3]
+TrainerType = POKEMONTRAINER_Red
+WalkCharset = trainer_POKEMONTRAINER_Red
+RunCharset = boy_run
+CycleCharset = boy_bike
+SurfCharset = boy_surf
+DiveCharset = boy_surf
+FishCharset = boy_fish_offset
+SurfFishCharset = boy_fish_offset

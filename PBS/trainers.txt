@@ -1,0 +1,400 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#==============================
+# Debug Trainer
+#-------------------------------
+[SCIENTIST,Debug]
+LoseText = ...
+Pokemon = MAGIKARP,5
+#-------------------------------
+# Amira Naxeroth
+#-------------------------------
+[ABYSSALSOVEREIGN,Amira Naxeroth]
+LoseText = What an incredible battle!
+Pokemon = RIKAKO,61
+	Shiny = true
+Pokemon = GLACEON,61
+Pokemon = MISMAGIUS,63
+Pokemon = LUGIA,65
+	Shiny = true
+	Moves = PSYCHOBOOST,FEATHERDANCE,EARTHQUAKE,HYDROPUMP
+Pokemon = SHINKI,67
+Pokemon = ASUMIREKO,67
+	Moves = MANABURST18,FLAMETHROWER18,ICEBEAM18,LUNATIC18
+#-------------------------------
+[CAMPER,Liam]
+LoseText = "A very good battle, indeed!"
+Pokemon = DIGLETT,10
+Pokemon = BONSLY,11
+#-------------------------------
+[LEADER_Brock,Brock]
+Items = FULLRESTORE,FULLRESTORE
+LoseText = "Very good."
+Pokemon = GEODUDE,12
+    Gender = male
+    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+    AbilityIndex = 0
+    IV = 20,20,20,20,20,20
+Pokemon = ONIX,14
+    Name = Rocky
+    Gender = male
+    Shiny = yes
+    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    AbilityIndex = 0
+    Item = SITRUSBERRY
+    IV = 20,20,20,20,20,20
+    Ball = GREATBALL
+#-------------------------------
+[TEAMROCKET_M,Grunt,1]
+LoseText = "You're too good for me!"
+Pokemon = WEEPINBELL,21
+    Shadow = yes
+#-------------------------------
+[TEAMROCKET_F,Grunt,1]
+LoseText = "You're too good for me!"
+Pokemon = BURMY,19
+Pokemon = WINGULL,19
+Pokemon = ELECTABUZZ,20
+    Shadow = yes
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = "Aww, I lost."
+Pokemon = RATTATA,11
+Pokemon = EKANS,11
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = "A very good battle, indeed!"
+Pokemon = SPEAROW,16
+Pokemon = SENTRET,16
+#-------------------------------
+[CAMPER,Jeff,1]
+LoseText = "You beat me again!"
+Pokemon = FEAROW,29
+Pokemon = FURRET,29
+#-------------------------------
+[PICNICKER,Susie]
+LoseText = "Defeated! Oh my!"
+Pokemon = MEOWTH,18
+#-------------------------------
+[PICNICKER,Susie,1]
+LoseText = "Defeated! Oh my!"
+Pokemon = PERSIAN,32
+#-------------------------------
+[HIKER,Ford]
+LoseText = "You're too good for me!"
+Pokemon = MACHOP,19
+#-------------------------------
+[FISHERMAN,Andrew]
+LoseText = "Washed out!"
+Pokemon = MAGIKARP,14
+Pokemon = MAGIKARP,18
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = "My Skitty!"
+Pokemon = SKITTY,18
+#-------------------------------
+[LASS,Crissy]
+LoseText = "You didn't have to win so convincingly!"
+Pokemon = PLUSLE,17
+Pokemon = MINUN,17
+#-------------------------------
+[COOLCOUPLE,Alice & Bob]
+LoseText = "Our teamwork failed!"
+Pokemon = TURTWIG,19
+Pokemon = CHIMCHAR,19
+#-------------------------------
+[POKEMONTRAINER_Brendan,Brendan]
+Pokemon = MARSHTOMP,19
+#-------------------------------
+[SWIMMER2_F,Ariel]
+LoseText = "Washed out!"
+Pokemon = STARYU,15
+Pokemon = GOLDEEN,11
+#-------------------------------
+[RIVAL1,Blue]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = BULBASAUR,18
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = CHARMANDER,18
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = "Not too shabby."
+Pokemon = PIDGEOTTO,17
+Pokemon = RATTATA,15
+Pokemon = SQUIRTLE,18
+#-------------------------------
+[CHAMPION_Silver,Blue]
+LoseText = "A good battle indeed!"
+Pokemon = VENUSAUR,63
+    Item = SITRUSBERRY
+Pokemon = CHARIZARD,63
+    Item = SITRUSBERRY
+Pokemon = BLASTOISE,63
+    Item = SITRUSBERRY
+#-------------------------------
+# Derx: DevKit Trainers Below
+#-------------------------------
+[SAGE_Yukari,Yukari Yakumo]
+LoseText = ...
+Pokemon = YUKARI,50
+	Moves = MANABURST18,PSYCHOCUT18,DARKPULSE18,MANACHARGE18
+Pokemon = HAKUREI,50
+	Moves = EXTRASENSORY18,HIJUMPKICK18,CALMMIND18,FORCEPALM18
+Pokemon = ADYUKARI,50
+	Moves = DRACOMETEOR18,POISONBOMB18,DARKPULSE18,CURSE18
+#-------------------
+[SAGE_Byakuren,Byakuren Hijiri]
+LoseText = ...
+Pokemon = TNAZRIN,50
+	Moves = BINDINGVOICE18,FURYSWIPES18,ENERGYLIGHT18,AGILITY18
+Pokemon = DICHIRIN,50
+	Moves = DRAINPUNCH18,CROSSCHOP18,IRONDEFENSE18,SUPERPOWER18
+Pokemon = BYAKUREN,50
+	Moves = MANABURST18,REFLECT18,CALMMIND18,EXTREMESPEED18
+#-------------------
+[SAGE_Shinki,Shinki]
+LoseText = ...
+Pokemon = YUMEKO,50
+	Moves = SPIKES18,PURSUIT18,SCULPTURE18,THUNDERBOLT18
+Pokemon = TALICE,50
+	Moves = MAGICKNIFE18,MINDBOMB18,HYPNOSIS18,COUNTER18
+Pokemon = SHINKI,50
+	Moves = DARKPULSE18,EXTRASENSORY18,DECISION18,DETECT18
+#-------------------
+[SAGE_Eirin,Eirin Yagokoro]
+LoseText = ...
+Pokemon = REISEN,50
+	Moves = HEARTSEYE18,MISTBALL18,CHARGEBEAM18,PSYCHOCUT18
+Pokemon = KAGUYA,50
+	Moves = ENERGYLIGHT18,TAUNT18,EXTRASENSORY18,RECOVER18
+Pokemon = EIRIN,50
+	Moves = POISONBOMB18,BURNPOWDER18,ZENHEADBUTT18,REFLECT18
+#-------------------
+[SAGE_Eiki,Eiki Shiki]
+LoseText = ...
+Pokemon = SHIKIEIKI,50
+	Moves = CALMMIND18,PSYBEAM18,WISH18,ENERGYLIGHT18
+Pokemon = KOMACHI,50
+	Moves = BLADEFLASH18,NIGHTSLASH18,MUDDYWATER18,PAINSPLIT18
+Pokemon = DSHIKIEIKI,50
+	Moves = PSYCHUP18,PSYWAVE18,DECISION18,MIRRORCOAT18
+#-------------------
+[DEVELOPER,Derxwna Kapsyla]
+LoseText = Haha, a most excellent battle indeed!
+Pokemon = SEIGA,61
+	Moves = NASTYPLOT18,EXTRASENSORY18,DARKPULSE18,DISABLE18
+Pokemon = RIKAKO,65
+	Moves = AGILITY18,THUNDERBOLT18,SONICBOOM18,PSYCHOCUT18
+Pokemon = GOLIATH,63
+	Moves = TAILWIND18,BRAVER18,EARTHQUAKE18,POISONJAB18
+Pokemon = ASUMIREKO,67
+	Moves = MANABURST18,FLAMETHROWER18,ICEBEAM18,LUNATIC18
+#-------------------
+[DRONE,Drone 1]
+LoseText = WAHAHAHAHAHAHA! WAHAHAHAHAHAHA! CLICKETY-CLACK
+Pokemon = ATENSHI,75
+	Item = SWEATER
+	Moves = ROCKWRECKER18,LEAFBLADE18,BATTLECHANT18,BLAZEKICK18
+	AbilityIndex = 1
+	Nature = JOLLY
+	IV = 31,31,31,31,31,31
+	EV = 0,252,0,252,0,4
+Pokemon = SYORIHIME,75
+	Item = LUMBERRY
+	Moves = SILVERWIND18,LUNATIC18,BLIZZARD18,LUSTERPURGE18
+	AbilityIndex = 0
+	Nature = BOLD
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = MAGAN,75
+	Item = LEFTOVERS,
+	Moves = POISONBOMB18,FLAMETHROWER18,CALMMIND18,RECOVER18
+	AbilityIndex = 0
+	Nature = BOLD
+	IV = 31,31,31,31,31,31
+	EV = 252,0,128,0,0,128
+Pokemon = SAYA,75
+	Item = NINJA
+	Moves = BRAVEBIRD18,HIJUMPKICK18,VOLTTACKLE18,DESTINYBOND18
+	AbilityIndex = 0
+	Nature = JOLLY
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+#-------------------
+[DRONE,Drone 2]
+LoseText = WAHAHAHAHAHAHA! WAHAHAHAHAHAHA! CLICKETY-CLACK
+Pokemon = ASUIKA,75
+	Item = GOTHIC
+	Moves = EARTHQUAKE18,FIREPUNCH18,STRENGTH18,STEELFIST18
+	AbilityIndex = 0
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,0,0,4
+Pokemon = TNAZRIN,75
+	Item = LUMBERRY
+	Moves = BINDINGVOICE18,SIGNALBEAM18,ENERGYLIGHT18,EXTRASENSORY18
+	AbilityIndex = 1
+	Nature = MODEST
+	IV = 31,31,31,31,31,31
+	EV = 252,0,4,0,252,0
+Pokemon = TENMA,75
+	Item = SALACBERRY
+	Moves = EARTHPOWER18,AIRSLASH18,MANACHARGE18,ROOST18
+	AbilityIndex = 0
+	Nature = BOLD
+	IV = 31,31,31,31,31,31
+	EV = 252,0,252,0,0,4
+Pokemon = ADCIRNO,75
+	Item = LIECHIBERRY
+	Moves = ICEBALL18,POISONJAB18,BRAVER18,TAILWIND18
+	AbilityIndex = 0
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 252,252,0,0,0,4
+#-------------------
+[DRONE,Drone 3]
+LoseText = WAHAHAHAHAHAHA! WAHAHAHAHAHAHA! CLICKETY-CLACK
+Pokemon = JKSANAE,75
+	Item = NINJA
+	Moves = SURF18,ICEBEAM18,THUNDER18,CALMMIND18
+	AbilityIndex = 0
+	Nature = TIMID
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = AMURASA,75
+	Item = SWIMSUIT
+	Moves = SURF18,SHADOWBALL18,ICEBEAM18,DESTINYBOND18
+	AbilityIndex = 1
+	Nature = TIMID
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = NITORI,75
+	Item = SWIMSUIT
+	Moves = AQUASHOWER18,THUNDER18,ICEBEAM18,SURF18
+	AbilityIndex = 0
+	Nature = MODEST
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = AKOMACHI,75
+	Item = MAIDCOSTUME
+	Moves = WATERFALL18,DRAWNLINE18,SHADOWDANCE18,SWORDSDANCE18
+	AbilityIndex = 1
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+#-------------------
+[COLLECTOR,Collector]
+LoseText = What a battle!
+Pokemon = VIVIT,80
+	Item = LEFTOVERS
+	Moves = SONICBOOM18,AIRSLASH18,EXTRASENSORY18,THUNDERWAVE18
+	AbilityIndex = 0
+	Nature = TIMID
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = AILATIOS,80
+	Item = WITCH
+	Moves = MANABURST18,SIGNALBEAM18,HYPERVOICE18,SHADOWBALL18
+	AbilityIndex = 0
+	Nature = MODEST
+	IV = 31,31,31,31,31,31
+	EV = 4,0,0,252,252,0
+Pokemon = AIRAYQUAZA,80
+	Item = BRIDALGOWN
+	Moves = VOLTTACKLE18,EARTHQUAKE18,SWORDSDANCE18,EXPLOSION18
+	AbilityIndex = 0
+	Nature = JOLLY
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+Pokemon = EMARISA,80
+	Item = WHITEHERB
+	Moves = FIREPUNCH18,THUNDERPUNCH18,WATERFALL18,EARTHQUAKE18
+	AbilityIndex = 0
+	Nature = ADAMANT
+	IV = 31,31,31,31,31,31
+	EV = 4,252,0,252,0,0
+Pokemon = RUUKOTO,80
+	Item = LEFTOVERS
+	Moves = HYPERVOICE18,TOXIC18,MANABURST18,RECOVER18
+	AbilityIndex = 2
+	Form = 1
+	Shiny = no
+	Nature = SERIOUS
+	IV = 31,31,31,31,31,31
+	EV = 252,0,128,0,0,128
+	Name = DLwRuukoto
+	Ball = MASTERBALL
+	Shadow = no
+#-------------------
+[HOUJUU,Nue Houjuu]
+LoseText = All my tricks and illusions, they went up in smoke!
+Pokemon = MAMIZOU,75
+	Moves = SPIKES18,BELLYDRUM18,BATONPASS18,NATUREPOWER18
+	IV = 31,31,31,31,31,31
+Pokemon = TNUE,75
+	Moves = TOXIC18,FLAMETHROWER18,ENERGYLIGHT18,TAUNT18
+	IV = 31,31,31,31,31,31
+Pokemon = DSATORI,75
+	Moves = COUNTER18,MIRRORCOAT18,ENCORE18,DESTINYBOND18
+	IV = 31,31,31,31,31,31
+Pokemon = ANUE,75
+	Moves = BRAVEBIRD18,POISONBOMB18,SWORDSDANCE18,SELFDESTRUCT18
+	IV = 31,31,31,31,31,31
+#-------------------
+[SCMary,Maribel]
+LoseText = Maribel: Oh no, I lost!
+Items = HYPERPOTION,HYPERPOTION,FULLHEAL
+Pokemon = RAN,83
+	Moves = FLAMETHROWER18,BINDINGVOICE18,TAILWIND18,EARTHQUAKE18
+	IV = 31,31,31,31,31,31
+Pokemon = HSHIZUHA,83
+	Moves = BATONPASS18,TAILWIND18,NATURESOUND18,CALMMIND18
+	IV = 31,31,31,31,31,31
+Pokemon = ASUIKA,83,,ERUPTION18,EARTHQUAKE18,BULKUP18,DYNAMICPUNCH18
+	IV = 31,31,31,31,31,31
+Pokemon = SCIRNO,83,,ICEBEAM18,AQUAJET18,TAILWIND18,ENDEAVOR18
+	IV = 31,31,31,31,31,31
+Pokemon = TSAKUYA,83,,FURYCUTTER18,METALCLAW18,MAGICKNIFE18,DETECT18
+	IV = 31,31,31,31,31,31
+Pokemon = DYUYUKO,83,,SHADOWBALL18,TOXIC18,GIGADRAIN18,CURSE18
+	IV = 31,31,31,31,31,31
+#-------------------
+[SCRenko,Renko]
+LoseText = Renko: Oh no, I lost!
+Items = HYPERPOTION,HYPERPOTION,FULLHEAL
+Pokemon = EIRIN,83
+	Moves = MANABURST18,POISONBOMB18,REFLECT18,REFRESH18
+	IV = 31,31,31,31,31,31
+Pokemon = KOGASA,83
+	Moves = SHADOWBALL18,SURF18,PAINSPLIT18,CURSE18
+	IV = 31,31,31,31,31,31
+Pokemon = HMYSTIA,83
+	Moves = SMILE18,COTTONSPORE18,SECRETPOWER18,AIRSLASH18
+	IV = 31,31,31,31,31,31
+Pokemon = YUMEMI,83
+	Moves = ICEBEAM18,MANABURST18,MIRRORCOAT18,SIGNALBEAM18
+	IV = 31,31,31,31,31,31
+Pokemon = AMARISA,83
+	Moves = NASTYPLOT18,TRIATTACK18,HEATWAVE18,THUNDERBOLT18
+	IV = 31,31,31,31,31,31
+Pokemon = SHIKIEIKI,83
+	Moves = MANABURST18,CALMMIND18,SILVERWIND18,LIGHTSCREEN18
+	IV = 31,31,31,31,31,31
+#==============================
+[ENGINEER,Granger]
+LoseText = Perhaps I should have been more focused on the battle.
+Pokemon = CASTFORM,55
+#==============================
+[ENGINEER,Jamison]
+LoseText = I was having a nice break too.
+Pokemon = MUK,55
+Pokemon = MAGNEZONE,55
+#==============================
+[ENGINEER,Paul]
+LoseText = Alright, looks good. Head on in.
+Pokemon = ELECTRODE,55,

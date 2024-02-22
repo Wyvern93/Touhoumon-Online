@@ -1,0 +1,5 @@
+Name      = Touhoumon Essentials Development Kit
+Version   = 3.3.1
+Website   = https://github.com/DerxwnaKapsyla/Pokemon-Essentials
+Credits   = DerxwnaKapsyla
+Essentials = 21

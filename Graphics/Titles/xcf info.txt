@@ -1,0 +1,3 @@
+introcreen.xcf is a template to allow people to quickly and easily make intro screen graphics
+
+Splash.xcf is a template to allow people to quickly make splash screens (Or at least, get an idea for splash screens maybe)

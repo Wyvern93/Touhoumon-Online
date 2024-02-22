@@ -1,0 +1,6 @@
+/Balls: Part of the Vs. Screen transition. Used in trainer battles to show how many Pokemon or Puppets are on an AI Trainer's teams.
+  /BGs: Part of the Vs. Screen transition. Used in both Trainer and Wild Encounters to show a background image.
+/Names: Part of the Vs. Screen transition. Used in both Trainer and Wild Encounters to display a name for the battle.
+  /PTs: Part of the Vs. Screen transition. Used in both Trainer and Wild Encounters to display a portrait for the battle.
+
+"Vs Transition Text Prefab.psd": A Photoshop file that will allow you to quickly set up text in a format similar to what's included with the DevKit.

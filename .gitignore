@@ -1,0 +1,21 @@
+# Audio, Graphics and Plugins folders
+
+# Data folder, but not Data/Scripts folder
+
+# Files in the main project folder
+
+# Common code editor folders & files
+.vscode/
+*.code-workspace
+.idea/
+
+# Operating system generated files & folders
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Temp files
+
+~*

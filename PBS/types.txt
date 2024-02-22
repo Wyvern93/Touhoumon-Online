@@ -1,0 +1,231 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[NORMAL]
+Name = Normal
+IconPosition = 0
+Weaknesses = FIGHTING
+Immunities = GHOST,GHOST18
+#-------------------------------
+[FIGHTING]
+Name = Fighting
+IconPosition = 1
+Weaknesses = FLYING,PSYCHIC,FLYING18,REASON18
+Resistances = BUG,DARK,ROCK,DARK18
+#-------------------------------
+[FLYING]
+Name = Flying
+IconPosition = 2
+Weaknesses = ELECTRIC,ICE,ROCK,STEEL18,WIND18,ICE18
+Resistances = BUG,FIGHTING,GRASS,DREAM18,BEAST18,NATURE18
+Immunities = GROUND
+#-------------------------------
+[POISON]
+Name = Poison
+IconPosition = 3
+Weaknesses = GROUND,PSYCHIC,EARTH18,REASON18
+Resistances = BUG,FIGHTING,GRASS,POISON,MIASMA18,NATURE18,FAITH18,HEART18
+#-------------------------------
+[GROUND]
+Name = Ground
+IconPosition = 4
+Weaknesses = GRASS,ICE,WATER,WATER18,NATURE18,ICE18
+Resistances = POISON,ROCK,MIASMA18
+Immunities = ELECTRIC,WIND18
+#-------------------------------
+[ROCK]
+Name = Rock
+IconPosition = 5
+Weaknesses = FIGHTING,GRASS,GROUND,STEEL,WATER,GRASS,STEEL18,WATER18,EARTH18,NATURE18,DREAM18
+Resistances = FIRE,FLYING,NORMAL,POISON,FLYING18,MIASMA18,FIRE18
+#-------------------------------
+[BUG]
+Name = Bug
+IconPosition = 6
+Weaknesses = FIRE,FLYING,ROCK,FLYING18,FIRE18
+Resistances = FIGHTING,GRASS,GROUND,EARTH18,NATURE18
+#-------------------------------
+[GHOST]
+Name = Ghost
+IconPosition = 7
+Weaknesses = DARK,GHOST,GHOST18,BEAST18
+Resistances = BUG,POISON,MIASMA18
+Immunities = FIGHTING,NORMAL,DARK18,ILLUSION18
+#-------------------------------
+[STEEL]
+Name = Steel
+IconPosition = 8
+Weaknesses = FIGHTING,FIRE,GROUND,DREAM18,EARTH18,FIRE18
+Resistances = BUG,DRAGON,FLYING,GRASS,ICE,NORMAL,PSYCHIC,ROCK,STEEL,FLYING18,STEEL18
+Immunities = POISON,MIASMA18
+#-------------------------------
+[QMARKS]
+Name = ???
+IconPosition = 9
+IsPseudoType = true
+#-------------------------------
+[FIRE]
+Name = Fire
+IconPosition = 10
+IsSpecialType = true
+Weaknesses = GROUND,ROCK,WATER,EARTH18,WATER18
+Resistances = BUG,FIRE,GRASS,ICE,STEEL,STEEL18,FIRE18,NATURE18
+#-------------------------------
+[WATER]
+Name = Water
+IconPosition = 11
+IsSpecialType = true
+Weaknesses = ELECTRIC,GRASS,MIASMA18,WIND18,NATURE18
+Resistances = FIRE,ICE,STEEL,WATER,STEEL18,FIRE18,WATER18,ICE18
+#-------------------------------
+[GRASS]
+Name = Grass
+IconPosition = 12
+IsSpecialType = true
+Weaknesses = BUG,FIRE,FLYING,ICE,POISON,FLYING18,FIRE18,MIASMA18,ICE18
+Resistances = ELECTRIC,GRASS,GROUND,WATER,BEAST18,EARTH18,WATER18,WIND18,NATURE18
+#-------------------------------
+[ELECTRIC]
+Name = Electric
+IconPosition = 13
+IsSpecialType = true
+Weaknesses = GROUND,EARTH18
+Resistances = ELECTRIC,FLYING,STEEL,FLYING18
+#-------------------------------
+[PSYCHIC]
+Name = Psychic
+IconPosition = 14
+IsSpecialType = true
+Weaknesses = BUG,DARK,GHOST,GHOST18,DARK18,HEART18
+Resistances = FIGHTING,PSYCHIC,DREAM18,MIASMA18,FAITH18
+#-------------------------------
+[ICE]
+Name = Ice
+IconPosition = 15
+IsSpecialType = true
+Weaknesses = FIGHTING,FIRE,ROCK,STEEL,STEEL18,FIRE18
+Resistances = ICE,ICE18
+#-------------------------------
+[DRAGON]
+Name = Dragon
+IconPosition = 16
+IsSpecialType = true
+Weaknesses = DRAGON,ICE,ICE18,FAITH18,REASON18
+Resistances = ELECTRIC,FIRE,GRASS,WATER,FIRE18,WATER18,NATURE18
+#-------------------------------
+[DARK]
+Name = Dark
+IconPosition = 17
+IsSpecialType = true
+Weaknesses = BUG,FIGHTING,STEEL18,FAITH18,HEART18
+Resistances = DARK,GHOST,DREAM18
+Immunities = PSYCHIC,GHOST18
+
+# ------ Derx: I have no plans to add Fairy Type to the engine. If you want to add Fairy
+# ------ you will have to add it manually it in. Shadow stuff is handled elsewhere as well.
+# ------ 
+
+[ILLUSION18]
+Name=Illusion
+IconPosition = 20
+Immunities=GHOST18,GHOST
+
+[DARK18]
+Name=Umbral
+IconPosition = 21
+Resistances=DREAM18,DARK18,ILLUSION18,DARK
+Weaknesses=STEEL18,FAITH18,HEART18,FIGHTING,BUG
+Immunities=GHOST18,GHOST
+
+[FLYING18]
+Name=Aero
+IconPosition = 22
+Resistances=DREAM18,BEAST18,NATURE18,GRASS,FIGHTING,BUG
+Weaknesses=STEEL18,WIND18,ICE18,ELECTRIC,ICE,ROCK,STEEL
+Immunities=EARTH18,GROUND
+
+[MIASMA18]
+Name=Miasma
+IconPosition = 23
+Resistances=MIASMA18,NATURE18,FAITH18,HEART18,GRASS,FIGHTING,POISON,BUG
+Weaknesses=EARTH18,REASON18,GROUND,PSYCHIC
+
+[EARTH18]
+Name=Earth
+IconPosition = 24
+Resistances=MIASMA18,FIRE18,POISON,ROCK
+Weaknesses=WATER18,NATURE18,WATER,GRASS,ICE
+Immunities=WIND18,ELECTRIC
+
+[BEAST18]
+Name=Beast
+IconPosition = 25
+Resistances=GHOST18,EARTH18,GHOST
+Weaknesses=FLYING18,FIRE18,WATER18,FIRE,WATER,FLYING
+
+[DREAM18]
+Name=Dream
+IconPosition = 26
+Resistances=DREAM18,HEART18,ILLUSION18,NORMAL
+Weaknesses=DARK18,REASON18,PSYCHIC,DARK
+
+[GHOST18]
+Name=Nether
+IconPosition = 27
+Resistances=MIASMA18,REASON18,POISON,PSYCHIC
+Weaknesses=GHOST18,BEAST18,GHOST
+Immunities=DARK18,ILLUSION18,FIGHTING,NORMAL
+
+[STEEL18]
+Name=Metal
+IconPosition = 28
+Resistances=FLYING18,STEEL18,REASON18,FLYING,PSYCHIC,BUG,DRAGON,STEEL
+Weaknesses=DREAM18,EARTH18,FIRE18,FIGHTING,GROUND,FIRE
+Immunities=MIASMA18,POISON
+
+[FIRE18]
+Name=Pyro
+IconPosition = 29
+Resistances=STEEL18,FIRE18,NATURE18,FIRE,GRASS,STEEL,ICE
+Weaknesses=EARTH18,WATER18,WATER,GROUND,ROCK
+
+[WATER18]
+Name=Hydro
+IconPosition = 30
+Resistances=STEEL18,FIRE18,WATER18,ICE18,FIRE,WATER,ICE,STEEL
+Weaknesses=MIASMA18,WIND18,NATURE18,ELECTRIC,GRASS,POISON
+
+[NATURE18]
+Name=Nature
+IconPosition = 31
+Resistances=BEAST18,WATER18,WIND18,NATURE18,EARTH18,WATER,ELECTRIC,GRASS,GROUND
+Weaknesses=FLYING18,FIRE18,MIASMA18,ICE18,FIRE,FLYING,POISON
+
+[WIND18]
+Name=Wind
+IconPosition = 32
+Resistances=FLYING18,WIND18,FLYING
+Weaknesses=EARTH18,GROUND
+
+[REASON18]
+Name=Reason
+IconPosition = 33
+Resistances=DREAM18,MIASMA18,FAITH18,POISON
+Weaknesses=GHOST18,DARK18,HEART18,BUG,GHOST,DARK
+
+[ICE18]
+Name=Cryo
+IconPosition = 34
+Resistances=ICE18,ICE
+Weaknesses=STEEL18,FIRE18,FIRE,ROCK,STEEL
+
+[FAITH18]
+Name=Faith
+IconPosition = 35
+Resistances=FIRE18,WATER18,WIND18,HEART18,WATER,FIRE,ELECTRIC
+Weaknesses=BEAST18,REASON18,PSYCHIC
+
+[HEART18]
+Name=Heart
+IconPosition = 36
+Resistances=GHOST18,DARK18,REASON18,HEART18,GHOST,PSYCHIC
+Weaknesses=DREAM18,FAITH18

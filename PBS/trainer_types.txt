@@ -1,0 +1,566 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[ABYSSALSOVEREIGN]
+Name = Abyssal Sovereign
+Gender = Female
+BaseMoney = 100
+SkillLevel = 100
+BattleBGM = X-003. Endwalker
+#-------------------------------
+[SCRenko]
+Name = Sealing Club
+Gender = Female
+BaseMoney = 60
+SkillLevel = 100 # Set to 100 for the final fight. Default 70
+BattleBGM = B-008. Girls' Sealing Club
+IntroBGM = P-003. Girls' Sealing Club
+#-------------------------------
+[SCMary]
+Name = Sealing Club
+Gender = Female
+BaseMoney = 60
+SkillLevel = 100 # Set to 100 for the final fight. Default 70
+BattleBGM = B-008. Girls' Sealing Club
+IntroBGM = P-003. Girls' Sealing Club
+#-------------------------------
+[POKEMONTRAINER_Red]
+Name = Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-010. Battle! Vs. Red.ogg
+IntroBGM = P-001. Demystify Feast
+#-------------------------------
+[POKEMONTRAINER_Leaf]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 100
+IntroBGM = P-001. Demystify Feast
+#-------------------------------
+[RIVAL1]
+Name = Rival
+Gender = Male
+BaseMoney = 16
+IntroBGM =
+#-------------------------------
+[RIVAL2]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+IntroBGM =
+#-------------------------------
+[AROMALADY]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 32
+IntroBGM = P-007. Trainers' Eyes Meet (Lass)
+#-------------------------------
+[BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 56
+IntroBGM = P-003. Trainers' Eyes Meet (Girl 1)
+#-------------------------------
+[BIKER]
+Name = Biker
+Gender = Male
+BaseMoney = 32
+IntroBGM =
+#-------------------------------
+[BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+IntroBGM = P-005. A Trainer Appears (Boy Version)
+#-------------------------------
+[BURGLAR]
+Name = Burglar
+Gender = Male
+BaseMoney = 88
+SkillLevel = 32
+IntroBGM = P-004. A Trainer Appears (Bad Guy Version)
+#-------------------------------
+[CHANNELER]
+Name = Channeler
+Gender = Female
+BaseMoney = 32
+IntroBGM = P-002. Trainers' Eyes Meet (Hex Maniac)
+#-------------------------------
+[CUEBALL]
+Name = Cue Ball
+Gender = Male
+BaseMoney = 24
+IntroBGM =
+#-------------------------------
+[ENGINEER]
+Name = Engineer
+Gender = Male
+BaseMoney = 48
+IntroBGM = P-006. Trainers' Eyes Meet (Hiker)
+#-------------------------------
+[FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-006. Trainers' Eyes Meet (Hiker)
+#-------------------------------
+[GAMBLER]
+Name = Gambler
+Gender = Male
+BaseMoney = 72
+SkillLevel = 32
+IntroBGM = P-022. Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 72
+IntroBGM = P-017. Trainers' Eyes Meet (Gentleman)
+#-------------------------------
+[HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-006. Trainers' Eyes Meet (Hiker)
+#-------------------------------
+[JUGGLER]
+Name = Juggler
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-022. Trainers' Eyes Meet (Suspicious Figure 1)
+#-------------------------------
+[LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 160
+SkillLevel = 72
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[PAINTER]
+Name = Painter
+Gender = Female
+BaseMoney = 16
+IntroBGM = P-016. Trainers' Eyes Meet (Artist)
+#-------------------------------
+[POKEMANIAC]
+Name = Poké Maniac
+Gender = Male
+BaseMoney = 64
+IntroBGM =
+#-------------------------------
+[POKEMONBREEDER]
+Name = Pokémon Breeder
+Gender = Female
+BaseMoney = 48
+IntroBGM =
+#-------------------------------
+[PROFESSOR]
+Name = Professor
+Gender = Male
+BaseMoney = 100
+IntroBGM =
+#-------------------------------
+[ROCKER]
+Name = Rocker
+Gender = Male
+BaseMoney = 24
+IntroBGM = P-018. Trainers' Eyes Meet (Black Belt)
+#-------------------------------
+[RUINMANIAC]
+Name = Ruin Maniac
+Gender = Male
+BaseMoney = 48
+IntroBGM = P-006. Trainers' Eyes Meet (Hiker)
+#-------------------------------
+[SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+IntroBGM =
+#-------------------------------
+[SCIENTIST]
+Name = Scientist
+Gender = Male
+BaseMoney = 48
+IntroBGM = P-024. Trainers' Eyes Meet (Suspicious Figure 2)
+#-------------------------------
+[SUPERNERD]
+Name = Super Nerd
+Gender = Male
+BaseMoney = 48
+IntroBGM = P-008. Trainers' Eyes Meet (Psychic)
+#-------------------------------
+[TAMER]
+Name = Tamer
+Gender = Male
+BaseMoney = 40
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-018. Trainers' Eyes Meet (Black Belt)
+#-------------------------------
+[CRUSHGIRL]
+Name = Crush Girl
+Gender = Female
+BaseMoney = 24
+IntroBGM = P-018. Trainers' Eyes Meet (Black Belt)
+#-------------------------------
+[CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+IntroBGM = P-005. A Trainer Appears (Boy Version)
+#-------------------------------
+[PICNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+IntroBGM = P-011. A Trainer Appears (Girl Version)
+#-------------------------------
+[COOLTRAINER_M]
+Name = Cool Trainer
+Gender = Male
+BaseMoney = 60
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[COOLTRAINER_F]
+Name = Cool Trainer
+Gender = Female
+BaseMoney = 60
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+IntroBGM = P-009. Trainers' Eyes Meet (Youngster)
+#-------------------------------
+[LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+IntroBGM = P-007. Trainers' Eyes Meet (Lass)
+#-------------------------------
+[POKEMONRANGER_M]
+Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 60
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[POKEMONRANGER_F]
+Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 60
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[PSYCHIC_M]
+Name = Psychic
+Gender = Male
+BaseMoney = 32
+IntroBGM = P-008. Trainers' Eyes Meet (Psychic)
+#-------------------------------
+[PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 32
+IntroBGM = P-008. Trainers' Eyes Meet (Psychic)
+#-------------------------------
+[SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = P-005. A Trainer Appears (Boy Version)
+#-------------------------------
+[SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = P-011. A Trainer Appears (Girl Version)
+#-------------------------------
+[SWIMMER2_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = P-005. A Trainer Appears (Boy Version)
+#-------------------------------
+[SWIMMER2_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+IntroBGM = P-011. A Trainer Appears (Girl Version)
+#-------------------------------
+[TUBER_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+IntroBGM =
+#-------------------------------
+[TUBER_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+IntroBGM =
+#-------------------------------
+[TUBER2_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+IntroBGM =
+#-------------------------------
+[TUBER2_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+IntroBGM =
+#-------------------------------
+[COOLCOUPLE]
+Name = Cool Couple
+Gender = Unknown
+BaseMoney = 72
+SkillLevel = 48
+IntroBGM = P-010. Trainers' Eyes Meet (Cooltrainer)
+#-------------------------------
+[CRUSHKIN]
+Name = Crush Kin
+Gender = Unknown
+BaseMoney = 48
+IntroBGM = P-018. Trainers' Eyes Meet (Black Belt)
+#-------------------------------
+[SISANDBRO]
+Name = Sis and Bro
+Gender = Unknown
+BaseMoney = 16
+SkillLevel = 48
+IntroBGM =
+#-------------------------------
+[TWINS]
+Name = Twins
+Gender = Unknown
+BaseMoney = 24
+IntroBGM =
+#-------------------------------
+[YOUNGCOUPLE]
+Name = Young Couple
+Gender = Unknown
+BaseMoney = 60
+SkillLevel = 32
+IntroBGM =
+#-------------------------------
+[TEAMROCKET_M]
+Name = Team Rocket
+Gender = Male
+BaseMoney = 32
+BattleBGM = B-020. Battle! Vs. Team Rocket.ogg
+IntroBGM = P-014. Trainers' Eyes Meet (Team Rocket)
+#-------------------------------
+[TEAMROCKET_F]
+Name = Team Rocket
+Gender = Female
+BaseMoney = 32
+BattleBGM = B-020. Battle! Vs. Team Rocket.ogg
+IntroBGM = P-014. Trainers' Eyes Meet (Team Rocket)
+#-------------------------------
+[ROCKETBOSS]
+Name = Rocket Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-020. Battle! Vs. Team Rocket.ogg
+IntroBGM = P-014. Trainers' Eyes Meet (Team Rocket)
+#-------------------------------
+[LEADER_Brock]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Misty]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Surge]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Erika]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Janine]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Sabrina]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Blaine]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[LEADER_Green]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = B-017. Battle! Kanto Gym Leader.ogg
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[ELITEFOUR_Blue]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[ELITEFOUR_Bruno]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[ELITEFOUR_Agatha]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[ELITEFOUR_Maria]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[CHAMPION_Silver]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+IntroBGM =
+#-------------------------------
+[POKEMONTRAINER_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+IntroBGM =
+#-------------------------------
+[POKEMONTRAINER_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+IntroBGM =
+#-------------------------------
+# ------ DevKit Trainer Classes
+# ------ You can safely remove these if the trainers associated with them are not in the game
+[SAGE_Byakuren]
+Name = Fantasy Sage
+Gender = Female
+BaseMoney = 80
+SkillLevel = 70
+BattleBGM = B-002. Angel's Legend
+#-------------------------------
+[SAGE_Eirin]
+Name = Fantasy Sage
+Gender = Female
+BaseMoney = 80
+SkillLevel = 70
+BattleBGM = B-002. Angel's Legend
+#-------------------------------
+[SAGE_Shinki]
+Name = Fantasy Sage
+Gender = Female
+BaseMoney = 80
+SkillLevel = 70
+BattleBGM = B-002. Angel's Legend
+#-------------------------------
+[SAGE_Eiki]
+Name = Fantasy Sage
+Gender = Female
+BaseMoney = 80
+SkillLevel = 70
+BattleBGM = B-002. Angel's Legend
+#-------------------------------
+[SAGE_Yukari]
+Name = Fantasy Sage
+Gender = Female
+BaseMoney = 80
+SkillLevel = 70
+BattleBGM = B-002. Angel's Legend
+#-------------------------------
+[DEVELOPER]
+Name = Overworked Developer
+Gender = Male
+BaseMoney = 100
+SkillLevel = 80
+BattleBGM = B-004. Emotional Skyscraper ~ Cosmic Mind
+#-------------------------------
+[DRONE]
+Name = The Collector's
+Gender = Male
+BaseMoney = 150
+SkillLevel = 80
+BattleBGM = B-005. Witch's Ball ~ Magus
+#-------------------------------
+[HOUJUU]
+Name = Enigmatic
+Gender = Female
+BaseMoney = 150
+SkillLevel = 80
+BattleBGM = B-006. Heian Alien
+#-------------------------------
+[COLLECTOR]
+Name = The
+Gender = Male
+BaseMoney = 200
+SkillLevel = 100
+BattleBGM = B-007. Trick House
+#-------------------------------

@@ -1,0 +1,133 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RETRIBUTION]
+Name = Retribution
+Description = Inflicts fatal damage to foe on contact.
+#------------------------------
+[PLAYGHOST]
+Name = Play Ghost
+Description = Only super-effective moves will hit.
+#------------------------------
+[JEALOUSY]
+Name = Jealousy
+Description = Lowers wild puppet encounter rate.
+#------------------------------
+[GUARDARMOR]
+Name = Guard Armor
+Description = The puppet is protected against critical hits.
+#------------------------------
+[UNCONSCIOUS]
+Name = Unconscious
+Description = Eliminates the effects of weather.
+#------------------------------
+[FOCUS]
+Name = Focus
+Description = The puppet's accuracy is boosted.
+#------------------------------
+[MYSTERIOUS]
+Name = Mysterious
+Description = Changes the puppet's type to the foe's move.
+#------------------------------
+[ADVENT]
+Name = Advent
+Description = Blocks the added effects of attacks taken.
+#------------------------------
+[GATEKEEPER]
+Name = Gate Keeper
+Description = Negates all moves that force switching out.
+#------------------------------
+[DOLLWALL]
+Name = Doll Wall
+Description = Inflicts damage to the foe on contact.
+#------------------------------
+[INFECTIOUS]
+Name = Infectious
+Description = Contact may poison or cause paralysis or sleep.
+#------------------------------
+[HAKUREIMIKO]
+Name = Hakurei Miko
+Description = Prevents other puppets from lowering stats.
+#------------------------------
+[DIVA]
+Name = Diva
+Description = Raises likelihood of meeting wild puppets.
+#------------------------------
+[UNZAN]
+Name = Unzan
+Description = Raises the puppet's attack stat
+#------------------------------
+[POISONBODY]
+Name = Poison Body
+Description = Contact with the puppet may poison the attacker.
+#------------------------------
+[FIREVEIL]
+Name = Fire Veil
+Description = Prevents the puppet from becoming Frozen.
+#------------------------------
+[ICEWALL]
+Name = Wall of Ice
+Description = Ups resistance to Fire/Pyro and Ice/Cryo type moves.
+#------------------------------
+[HISTRENGTH]
+Name = Hi Strength
+Description = Prevents other puppets from lowering Attack stat.
+#------------------------------
+[FRETFUL]
+Name = Fretful
+Description = Puppets can't attack on consecutive turns.
+#------------------------------
+[COLLECTOR]
+Name = Collector
+Description = Protects the puppet from item theft.
+#------------------------------
+[MAINTENANCE]
+Name = Maintenance
+Description = The puppet may heal its own status problems.
+#------------------------------
+[SPRINGCHARM]
+Name = Spring Charm
+Description = Ups Defense if there is a status problem.
+#------------------------------
+[STRANGEMIST]
+Name = Strange Mist
+Description = Damages attackers using any draining move.
+#------------------------------
+[INNERPOWER]
+Name = Inner Power
+Description = Powers up Dream-type moves in a pinch.
+#------------------------------
+[BARRIER]
+Name = Magic Barrier
+Description = Prevents other puppets from lowering its stats.
+#------------------------------
+[HISOUTEN]
+Name = Hisouten
+Description = Eliminates the effects of weather.
+#------------------------------
+[GEHABURN]
+Name = Gehaburn
+Description = Boosts puppet's attack when they defeat a foe.
+#------------------------------
+[PIERCINGSTARE]
+Name = Piercing Stare
+Description = Prevents the foe from fleeing.
+#------------------------------
+[LUCIDDREAMING]
+Name = Lucid Dreaming
+Description = Allows a puppet to attack while asleep.
+#------------------------------
+[ABYSSALDRAIN]
+Name = Abyssal Drain
+Description = Reduces a healthy foe's HP.
+#------------------------------
+[FLOWOFTIME]
+Name = Flow of Time
+Description = Attacking moves gain priority when HP is under half.
+#------------------------------
+[GRAVEROBBER]
+Name = Graverobber
+Description = The Puppet may pick up items.
+#-------------------------------
+[POTATOHARVEST]
+Name = Potato Harvest
+Description = The Puppet may gather Potatoes from somewhere.

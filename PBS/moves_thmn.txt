@@ -1,0 +1,4275 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[BINDINGVOICE18]
+Name = Binding Voice
+Type = BEAST18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user emits a loud cry that may cause the target to flinch.
+#-------------------------------
+[BITE18]
+Name = Bite
+Type = BEAST18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 30
+Description = The target is bitten with viciously sharp fangs. It may make the target flinch.
+#-------------------------------
+[CRUNCH18]
+Name = Crunch
+Type = BEAST18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[CRUSHCLAW18]
+Name = Crush Claw
+Type = BEAST18
+Category = Physical
+Power = 75
+Accuracy = 95
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user slashes the target with hard and sharp claws. It may also lower the target's Defense.
+#-------------------------------
+[DOUBLEEDGE18]
+Name = Double Edge
+Type = BEAST18
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.
+#-------------------------------
+[FURYSWIPES18]
+Name = Fury Swipes
+Type = BEAST18
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is raked with sharp claws or scythes for two to five times in quick succession.
+#-------------------------------
+[HEATCLAW18]
+Name = Heat Claw
+Type = BEAST18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithTargetWeight
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slashes at the foe with an aggressive, heated swipe. Power is based on the foe's Cost.
+#-------------------------------
+[HOWL18]
+Name = Howl
+Type = BEAST18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserAttack1
+Description = The user howls loudly to raise its spirit, boosting its Attack stat.
+#-------------------------------
+[KILLINGBITE18]
+Name = Killing Bite
+Type = BEAST18
+Category = Physical
+Power = 100
+Accuracy = 80
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user chomps down on the target with the intent to do serious damage. It may induce flinching.
+#-------------------------------
+[ROAR18]
+Name = Roar
+Type = BEAST18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetStatusMove
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The target is scared off and replaced by another combatant in its party. In the wild, the battle ends.
+#-------------------------------
+[SLASH18]
+Name = Slash
+Type = BEAST18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with a slash of claws or blades. Critical hits land more easily.
+#-------------------------------
+[STOMP18]
+Name = Stomp
+Type = BEAST18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is stomped with a big foot. It also has a chance to cause paralysis.
+#-------------------------------
+[TACKLE18]
+Name = Tackle
+Type = BEAST18
+Category = Physical
+Power = 35
+Accuracy = 95
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A physical attack in which the user charges and slams into the target with its whole body.
+#-------------------------------
+[TAILWHIP18]
+Name = Tail Whip
+Type = BEAST18
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetDefense1
+Flags = CanProtect,CanMirrorMove
+Description = The user wags its tail cutely, making its opponents less wary and lowering their Defense stat.
+#-------------------------------
+[BEATUP18]
+Name = Beat Up
+Type = DARK18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitOncePerUserTeamMember
+Flags = CanProtect,CanMirrorMove
+Description = The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.
+#-------------------------------
+[BLACKRIPPLE18]
+Name = Black Ripple
+Type = DARK18
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user fires a bolt of darkness a foe that may paralyze them.
+#-------------------------------
+[COERCE18]
+Name = Coerce
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerPPOfTargetLastMoveBy4
+Flags = CanProtect,CanMirrorMove
+Description = The user convinces the foe to lower the guard, making them lose 4 PP on their last used move.
+#-------------------------------
+[CURSEDSLASH18]
+Name = Cursed Stab
+Type = DARK18
+Category = Physical
+Power = 160
+Accuracy = 80
+TotalPP = 45
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDoneThmn
+Flags = CanProtect,ThawsUser,HighCriticalHitRate
+EffectChance = 40
+Description = The user slices the target with its sword and saps away its life force.
+#-------------------------------
+[DARKPULSE18]
+Name = Dark Pulse
+Type = DARK18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.
+#-------------------------------
+[DREAMEATER18]
+Name = Dream Eater
+Type = DARK18
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user eats the dreams of a foe. It absorbs half the damage caused to heal the user's HP.
+#-------------------------------
+[FAINTATTACK18]
+Name = Faint Attack
+Type = DARK18
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.
+#-------------------------------
+[FAKETEARS18]
+Name = Fake Tears
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect,CanMirrorMove
+Description = The user feigns crying to fluster the target, harshly lowering the foe's Sp.Atk.
+#-------------------------------
+[GIGAIMPACT18]
+Name = Giga Impact
+Type = DARK18
+Category = Physical
+Power = 130
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravity
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user charges at the target using every bit of its power. If it misses, the user is hurt instead.
+#-------------------------------
+[GLARE18]
+Name = Glare
+Type = DARK18
+Category = Status
+Accuracy = 90
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user intimidates the target with a fierce stare to cause paralysis.
+#-------------------------------
+[HEADRUSH18]
+Name = Head Rush
+Type = DARK18
+Category = Special
+Power = 35
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user launches their head at the target two to five times in a row.
+#-------------------------------
+[HEARTBREAK18]
+Name = Heart Break
+Type = DARK18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A simple attack that preys on the target's emotional weaknesses.
+#-------------------------------
+[HYPERBEAM18]
+Name = Hyper Beam
+Type = DARK18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The foe is attacked with a powerful beam that may lower their Sp.Def.
+#-------------------------------
+[KNOCKOFF18]
+Name = Knock Off
+Type = DARK18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RemoveTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user slaps down the target's held item, preventing that item from being used in the battle.
+#-------------------------------
+[LEECHLIFE18]
+Name = Leech Life
+Type = DARK18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[LOVELYKISS18]
+Name = Lovely Kiss
+Type = DARK18
+Category = Status
+Accuracy = 70
+TotalPP = 10
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+Description = With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep.
+#-------------------------------
+[NASTYPLOT18]
+Name = Nasty Plot
+Type = DARK18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtk2
+Description = The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.
+#-------------------------------
+[NIGHTSLASH18]
+Name = Night Slash
+Type = DARK18
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with a slash of claws or blades cloaked in darkness. Critical hits land more easily.
+#-------------------------------
+[OUTRAGE18]
+Name = Outrage
+Type = DARK18
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user goes on a rampage, attacking with seething rage. It may cause flinching.
+#-------------------------------
+[PRANK18]
+Name = Prank
+Type = DARK18
+Category = Physical
+Power = 1
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamageHalfTargetHP
+Flags = CanProtect,CanMirrorMove
+Description = The user plays a harmful, but silly, prank on the foe. It cuts the target's HP to half.
+#-------------------------------
+[PURSUIT18]
+Name = Pursuit
+Type = DARK18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PursueSwitchingFoe
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that inflicts double damage if used on a target that is switching out of battle.
+#-------------------------------
+[RAGE18]
+Name = Rage
+Type = DARK18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnAttackerAtRandom
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 70
+Description = The user taps into their anger and lashes out against the foe, but is likely to burn themselves.
+#-------------------------------
+[SCARYFACE18]
+Name = Scary Face
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpeed2
+Flags = CanProtect,CanMirrorMove
+Description = The user frightens the target with a scary face to harshly reduce its Speed stat.
+#-------------------------------
+[SNATCH18]
+Name = Snatch
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+Priority = 4
+FunctionCode = StealAndUseBeneficialStatusMove
+Description = The user steals the effects of any healing or stat-changing move the foe attempts to use.
+#-------------------------------
+[SWAGGER18]
+Name = Swagger
+Type = DARK18
+Category = Status
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseTargetAttack2ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.
+#-------------------------------
+[TAUNT18]
+Name = Taunt
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DisableTargetStatusMoves
+Flags = CanProtect,CanMirrorMove
+Description = The target is taunted into a rage that allows it to use only attack moves for three turns.
+#-------------------------------
+[THIEF18]
+Name = Thief
+Type = DARK18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.
+#-------------------------------
+[THRASH18]
+Name = Thrash
+Type = DARK18
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerUserDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user rampages about wildly, doing significant damage, but also lowering their defense in the process.
+#-------------------------------
+[TORMENT18]
+Name = Torment
+Type = DARK18
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DisableTargetUsingSameMoveConsecutively
+Flags = CanProtect,CanMirrorMove
+Description = The user torments and enrages the foe, making it incapable of using the same move twice in a row.
+#-------------------------------
+[BELLYDRUM18]
+Name = Belly Drum
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = MaxUserAttackLoseHalfOfTotalHP
+Description = The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+#-------------------------------
+[BLOCK18]
+Name = Block
+Type = DREAM18
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = TrapTargetInBattle
+Flags = CanProtect,CanMirrorMove
+Description = The user blocks the target's way with arms spread wide to prevent escape.
+#-------------------------------
+[BRICKBREAK18]
+Name = Brick Break
+Type = DREAM18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemoveScreens
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.
+#-------------------------------
+[BULKUP18]
+Name = Bulk Up
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserAtkDef1
+Description = The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.
+#-------------------------------
+[COMETPUNCH18]
+Name = Comet Punch
+Type = DREAM18
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The target is hit with a flurry of punches that strike two to five times in a row.
+#-------------------------------
+[COUNTER18]
+Name = Counter
+Type = DREAM18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = None
+Priority = -5
+FunctionCode = CounterPhysicalDamage
+Flags = Contact,CanMirrorMove
+Description = A retaliation move that counters any physical attack, inflicting double the damage taken.
+#-------------------------------
+[CROSSCHOP18]
+Name = Cross Chop
+Type = DREAM18
+Category = Physical
+Power = 100
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user delivers a double chop with its forearms crossed. Critical hits land more easily.
+#-------------------------------
+[DETECT18]
+Name = Detect
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 3
+FunctionCode = ProtectUser
+Description = It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.
+#-------------------------------
+[DOUBLEKICK18]
+Name = Double Kick
+Type = DREAM18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is quickly kicked twice in succession using both feet.
+#-------------------------------
+[DRAINPUNCH18]
+Name = Drain Punch
+Type = DREAM18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = An energy-draining punch. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[DYNAMICPUNCH18]
+Name = DynamicPunch
+Type = DREAM18
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 20
+Description = The user punches the target with full, concentrated power. It confuses the target if it hits.
+#-------------------------------
+[ENDURE18]
+Name = Endure
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+Priority = 3
+FunctionCode = UserEnduresFaintingThisTurn
+Description = The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.
+#-------------------------------
+[ENERGYBALL18]
+Name = Energy Ball
+Type = DREAM18
+Category = Special
+Power = 120
+Accuracy = 75
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 10
+Description = The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.
+#-------------------------------
+[FOCUSENERGY18]
+Name = Focus Energy
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserCriticalHitRate2
+Description = The user takes a deep breath and focuses so that critical hits land more easily.
+#-------------------------------
+[FOCUSPUNCH18]
+Name = Focus Punch
+Type = DREAM18
+Category = Physical
+Power = 150
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = -3
+FunctionCode = FailsIfUserDamagedThisTurn
+Flags = Contact,CanProtect,Punching
+Description = The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
+#-------------------------------
+[GUARD18]
+Name = Guard
+Type = DREAM18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+Priority = 3
+FunctionCode = RedirectAllMovesToUser
+Description = The user stands between its teammate and the opponent, protecting it from being attacked by drawing in all hits.
+#-------------------------------
+[HIJUMPKICK18]
+Name = Hi Jump Kick
+Type = DREAM18
+Category = Physical
+Power = 110
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravity
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.
+#-------------------------------
+[HYPERVOICE18]
+Name = Hyper Voice
+Type = DREAM18
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user lets loose a horribly echoing shout with the power to inflict damage.
+#-------------------------------
+[JUMPKICK18]
+Name = Jump Kick
+Type = DREAM18
+Category = Physical
+Power = 85
+Accuracy = 95
+TotalPP = 25
+Target = NearOther
+FunctionCode = CrashDamageIfFailsUnusableInGravity
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.
+#-------------------------------
+[KARATECHOP18]
+Name = Karate Chop
+Type = DREAM18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The target is attacked with a sharp chop. Critical hits land more easily.
+#-------------------------------
+[MACHPUNCH18]
+Name = Mach Punch
+Type = DREAM18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user throws a punch at blinding speed. It is certain to strike first.
+#-------------------------------
+[REFLECT18]
+Name = Reflect
+Type = DREAM18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserSide
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Description = A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
+#-------------------------------
+[REVENGE18]
+Name = Revenge
+Type = DREAM18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = DoublePowerIfUserLostHPThisTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.
+#-------------------------------
+[REVERSAL18]
+Name = Reversal
+Type = DREAM18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = PowerLowerWithUserHP
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An all-out attack that becomes more powerful the less HP the user has.
+#-------------------------------
+[ROCKSMASH18]
+Name = Rock Smash
+Type = DREAM18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.
+#-------------------------------
+[ROLLINGKICK18]
+Name = Rolling Kick
+Type = DREAM18
+Category = Physical
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user lashes out with a quick, spinning kick. It may also make the target flinch.
+#-------------------------------
+[SLACKOFF18]
+Name = Slack Off
+Type = DREAM18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user slacks off, restoring its own HP by up to half of its maximum HP.
+#-------------------------------
+[SNORE18]
+Name = Snore
+Type = DREAM18
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTargetFailsIfUserNotAsleep
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.
+#-------------------------------
+[STRENGTH18]
+Name = Strength
+Type = DREAM18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is slugged with a punch thrown at maximum power that may boost Attack. It can also be used to move heavy boulders.
+#-------------------------------
+[SUBMISSION18]
+Name = Submission
+Type = DREAM18
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = -6
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user waits for the target to attack them, then grabs them and recklessly dives for the ground.
+#-------------------------------
+[SUPERPOWER18]
+Name = Superpower
+Type = DREAM18
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserAtkDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks the target with great power. However, it also lowers the user's Attack and Defense.
+#-------------------------------
+[TICKLE18]
+Name = Tickle
+Type = DREAM18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAtkDef1
+Flags = CanProtect,CanMirrorMove
+Description = The user tickles the target into laughing, reducing its Attack and Defense stats.
+#-------------------------------
+[TRIPLEKICK18]
+Name = Triple Kick
+Type = DREAM18
+Category = Physical
+Power = 10
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitThreeTimesPowersUpWithEachHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A consecutive three-kick attack that becomes more powerful with each successive hit.
+#-------------------------------
+[ANCIENTPOWER18]
+Name = AncientPower
+Type = EARTH18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserDefense1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user attacks with a prehistoric power. It may also boost Defense.
+#-------------------------------
+[BONERUSH18]
+Name = Bone Rush
+Type = EARTH18
+Category = Physical
+Power = 25
+Accuracy = 80
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user strikes the target with a hard bone two to five times in a row.
+#-------------------------------
+[BONEMERANG18]
+Name = Bonemerang
+Type = EARTH18
+Category = Physical
+Power = 50
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
+#-------------------------------
+[DIG18]
+Name = Dig
+Type = EARTH18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableUnderground
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user burrows, then attacks on the second turn. It can also be used to exit dungeons.
+#-------------------------------
+[EARTHPOWER18]
+Name = Earth Power
+Type = EARTH18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user makes the ground under the foe erupt with power. It may also lower the target's Sp.Atk.
+#-------------------------------
+[EARTHQUAKE18]
+Name = Earthquake
+Type = EARTH18
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = DoublePowerIfTargetUnderground
+Flags = CanProtect,CanMirrorMove
+Description = The user sets off an earthquake that strikes at everything around it.
+#-------------------------------
+[FISSURE18]
+Name = Fissure
+Type = EARTH18
+Category = Physical
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKO
+Flags = CanProtect,CanMirrorMove
+Description = The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.
+#-------------------------------
+[HEADSMASH18]
+Name = Head Smash
+Type = EARTH18
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.
+#-------------------------------
+[MAGNITUDE18]
+Name = Magnitude
+Type = EARTH18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 30
+Target = AllNearOthers
+FunctionCode = RandomPowerDoublePowerIfTargetUnderground
+Flags = CanProtect,CanMirrorMove
+Description = The user looses a ground-shaking quake affecting everyone around the user. Its power varies.
+#-------------------------------
+[MINIMIZE18]
+Name = Minimize
+Type = EARTH18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserEvasion1
+Description = The user compresses its body to make itself look smaller, which sharply raises its evasiveness.
+#-------------------------------
+[MUDSHOT18]
+Name = Mud Shot
+Type = EARTH18
+Category = Special
+Power = 65
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by hurling a blob of mud at the target. It may also reduce the target's accuracy.
+#-------------------------------
+[MUDSLAP18]
+Name = Mud Slap
+Type = EARTH18
+Category = Special
+Power = 30
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user hurls mud in the target's face to inflict damage and lower its accuracy.
+#-------------------------------
+[ROCKBLAST18]
+Name = Rock Blast
+Type = EARTH18
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.
+#-------------------------------
+[ROCKBULLET18]
+Name = Rock Bullet
+Type = EARTH18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user hurls speedy, almost invisible, stones at the target. It is sure to strike first.
+#-------------------------------
+[ROCKSLIDE18]
+Name = Rock Slide
+Type = EARTH18
+Category = Physical
+Power = 75
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
+#-------------------------------
+[ROCKTOMB18]
+Name = Rock Tomb
+Type = EARTH18
+Category = Physical
+Power = 55
+Accuracy = 90
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.
+#-------------------------------
+[ROCKWRECKER18]
+Name = Rock Wrecker
+Type = EARTH18
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserDefense1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user launches a huge boulder at the target to attack. It may also raise Defense.
+#-------------------------------
+[SANDATTACK18]
+Name = Sand Attack
+Type = EARTH18
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+Description = Sand is hurled in the target's face, reducing its accuracy.
+#-------------------------------
+[SANDTOMB18]
+Name = Sand Tomb
+Type = EARTH18
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user traps the target inside a harshly raging sandstorm for four to five turns.
+#-------------------------------
+[SANDSTORM18]
+Name = Sandstorm
+Type = EARTH18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartSandstormWeather
+Description = The user traps the target inside a harshly raging sandstorm for five turns.
+#-------------------------------
+[SEISMICTOSS18]
+Name = Seismic Toss
+Type = EARTH18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FixedDamageUserLevel
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is thrown using the power of gravity. It inflicts damage equal to the user's level.
+#-------------------------------
+[SPIKES18]
+Name = Spikes
+Type = EARTH18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = FoeSide
+FunctionCode = AddSpikesToFoeSide
+Description = The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.
+#-------------------------------
+[TREMOR18]
+Name = Tremors
+Type = EARTH18
+Category = Special
+Power = 40
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = MultiTurnAttackPowersUpEachTurn
+Flags = CanProtect,CanMirrorMove
+Description = The user continually slams the ground under the target. It becomes stronger each turn.
+#-------------------------------
+[BARRAGE18]
+Name = Barrage
+Type = FAITH18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = CanProtect,CanMirrorMove
+Description = Round objects are hurled at the target to strike twice in one turn.
+#-------------------------------
+[CALMMIND18]
+Name = Calm Mind
+Type = FAITH18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtkSpDef1
+Description = The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.
+#-------------------------------
+[DECISION18]
+Name = Decision
+Type = FAITH18
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user calls upon a higher power to deliver a decisive, unavoidable attack.
+#-------------------------------
+[EXTRASENSORY18]
+Name = Extrasensory
+Type = FAITH18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user attacks with an odd, unseeable power. It may also make the target flinch.
+#-------------------------------
+[FLASH18]
+Name = Flash
+Type = FAITH18
+Category = Special
+Power = 65
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.
+#-------------------------------
+[FORCEPALM18]
+Name = Force Palm
+Type = FAITH18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The target is attacked with a shock wave. It may also leave the target with paralysis.
+#-------------------------------
+[IMPRISON18]
+Name = Imprison
+Type = FAITH18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = DisableTargetMovesKnownByUser
+Description = If the foe knows any move also known by the user, the foe is prevented from using it.
+#-------------------------------
+[JUDGEMENT18]
+Name = Judgement
+Type = FAITH18
+Category = Special
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKO
+Flags = CanProtect,CanMirrorMove
+Description = The user rains ivine judgment upon the foe. The target instantly faints if it hits.
+#-------------------------------
+[LIGHTSCREEN18]
+Name = Light Screen
+Type = FAITH18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = UserSide
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Description = The user throws up a sturdy wall that sharply raises its Defense stat.
+#-------------------------------
+[LOWKICK18]
+Name = Low Kick
+Type = FAITH18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A powerful low kick that makes the foe fall over and may flinch the target.
+#-------------------------------
+[LUCKYCHANT18]
+Name = Lucky Chant
+Type = FAITH18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpDef2
+Description = The user chants an incantation toward the sky that sharply raises their Sp.Def.
+#-------------------------------
+[PINMISSILE18]
+Name = Pin Missile
+Type = FAITH18
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.
+#-------------------------------
+[SACREDFIRE18]
+Name = Sacred Fire
+Type = FAITH18
+Category = Physical
+Power = 100
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The target is razed with a holy fire of great intensity. May raise Attack.
+#-------------------------------
+[SAFEGUARD18]
+Name = Safeguard
+Type = FAITH18
+Category = Status
+Accuracy = 0
+TotalPP = 25
+Target = UserSide
+FunctionCode = StartUserSideImmunityToInflictedStatus
+Description = The user creates a protective field that prevents status problems for five turns.
+#-------------------------------
+[SEALNEEDLE18]
+Name = Seal Needle
+Type = FAITH18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user throws needles of purification at a foe that have a chance of paralyzing it.
+#-------------------------------
+[SILVERWIND18]
+Name = Silver Wind
+Type = FAITH18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The foe is attacked with powdery scales blown by wind which may lower Speed.
+#-------------------------------
+[SMELLINGSALT18]
+Name = SmellingSalt
+Type = FAITH18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DoublePowerIfTargetParalyzedCureTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however.
+#-------------------------------
+[WISH18]
+Name = Wish
+Type = FAITH18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = HealUserPositionNextTurn
+Flags = CanProtect
+Description = One turn after this move is used, the target's HP is restored by half the user's maximum HP.
+#-------------------------------
+[BLASTBURN18]
+Name = Blast Burn
+Type = FIRE18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The target is razed by a fiery explosion, but lowers the user's Sp.Atk.
+#-------------------------------
+[BLAZEKICK18]
+Name = Blaze Kick
+Type = FIRE18
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.
+#-------------------------------
+[EMBER18]
+Name = Ember
+Type = FIRE18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is attacked with small flames. It may also leave the target with a burn.
+#-------------------------------
+[ERUPTION18]
+Name = Eruption
+Type = FIRE18
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithUserHP
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.
+#-------------------------------
+[FIREBLAST18]
+Name = Fire Blast
+Type = FIRE18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.
+#-------------------------------
+[FIREPUNCH18]
+Name = Fire Punch
+Type = FIRE18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with a fiery fist. It may leave the target with a burn.
+#-------------------------------
+[FIRESPIN18]
+Name = Fire Spin
+Type = FIRE18
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The target becomes trapped within a fierce vortex of fire that rages for four to five turns.
+#-------------------------------
+[FLAMEWHEEL18]
+Name = Flame Wheel
+Type = FIRE18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
+#-------------------------------
+[FLAMETHROWER18]
+Name = Flamethrower
+Type = FIRE18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is scorched with an intense blast of fire. It may also leave the target with a burn.
+#-------------------------------
+[FLAREBLITZ18]
+Name = Flare Blitz
+Type = FIRE18
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove,ThawsUser
+Description = The user cloaks itself in fire and charges at the foe. The user also takes damage.
+#-------------------------------
+[HEATWAVE18]
+Name = Heat Wave
+Type = FIRE18
+Category = Special
+Power = 100
+Accuracy = 90
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
+#-------------------------------
+[LAVAPLUME18]
+Name = Lava Plume
+Type = FIRE18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.
+#-------------------------------
+[SMOKESCREEN18]
+Name = SmokeScreen
+Type = FIRE18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+Description = The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.
+#-------------------------------
+[SUNNYDAY18]
+Name = Sunny Day
+Type = FIRE18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartSunWeather
+Description = The user intensifies the sun for five turns, powering up Fire-type moves.
+#-------------------------------
+[WILLOWISP18]
+Name = Will-o-Wisp
+Type = FIRE18
+Category = Status
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+#-------------------------------
+[AGILITY18]
+Name = Agility
+Type = FLYING18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserSpeed2
+Description = The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.
+#-------------------------------
+[AIRSLASH18]
+Name = Air Slash
+Type = FLYING18
+Category = Special
+Power = 75
+Accuracy = 90
+TotalPP = 10
+Target = Other
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks with a blade of air that slices even the sky. It may also make the target flinch.
+#-------------------------------
+[BOUNCE18]
+Name = Bounce
+Type = FLYING18
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableInSkyParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.
+#-------------------------------
+[BRAVEBIRD18]
+Name = Brave Bird
+Type = FLYING18
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = Other
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user tucks in its wings and charges from a low altitude. The user also takes serious damage.
+#-------------------------------
+[ENDEAVOR18]
+Name = Endeavor
+Type = FLYING18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetHPToUserHP
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that cuts down the target's HP to equal the user's HP.
+#-------------------------------
+[FLY18]
+Name = Fly
+Type = FLYING18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = TwoTurnAttackInvulnerableInSky
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.
+#-------------------------------
+[GALE18]
+Name = Gale
+Type = FLYING18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user sends extremely fast and powerful gusts of wind at the foe. It is sure to strike first.
+#-------------------------------
+[PECK18]
+Name = Peck
+Type = FLYING18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A corkscrewing attack with the sharp beak acting as a drill.
+#-------------------------------
+[QUICKATTACK18]
+Name = Quick Attack
+Type = FLYING18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
+#-------------------------------
+[RAZORWIND18]
+Name = Razor Wind
+Type = FLYING18
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = Blades of sharp and swift gusts of wind that will always hit the target.
+#-------------------------------
+[ROOST18]
+Name = Roost
+Type = FLYING18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user lands and rests its body. It restores the user's HP by up to half of its max HP.
+#-------------------------------
+[SING18]
+Name = Sing
+Type = FLYING18
+Category = Status
+Accuracy = 60
+TotalPP = 15
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Sound
+Description = A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.
+#-------------------------------
+[SKYATTACK18]
+Name = Sky Attack
+Type = FLYING18
+Category = Physical
+Power = 160
+Accuracy = 100
+TotalPP = 5
+Target = Other
+FunctionCode = TwoTurnAttackFlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 80
+Description = A second-turn attack move where critical hits land more easily. It may also make the target flinch.
+#-------------------------------
+[SOAR18]
+Name = Soar
+Type = FLYING18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = Other
+FunctionCode = HitsTargetInSky
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user attacks the target with an uppercut thrown skyward with force. Can strike airborne targets.
+#-------------------------------
+[WINGATTACK18]
+Name = Wing Attack
+Type = FLYING18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = Other
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is struck with large, imposing wings spread wide to inflict damage. May cause flinching.
+#-------------------------------
+[ASTONISH18]
+Name = Astonish
+Type = GHOST18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks the target while shouting in a startling fashion. It may also make the target flinch.
+#-------------------------------
+[CONFUSERAY18]
+Name = Confuse Ray
+Type = GHOST18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = The target is exposed to a sinister ray that triggers confusion.
+#-------------------------------
+[CURSE18]
+Name = Curse
+Type = GHOST18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = CurseTargetOrLowerUserSpd1RaiseUserAtkDef1
+Description = A move that works differently for the Ghost type than for all the other types.
+#-------------------------------
+[DESTINYBOND18]
+Name = Destiny Bond
+Type = GHOST18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = AttackerFaintsIfUserFaints
+Description = When this move is used, if the user faints, the foe that landed the knockout hit also faints.
+#-------------------------------
+[DISABLE18]
+Name = Disable
+Type = GHOST18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DisableTargetLastMoveUsed
+Flags = CanProtect,CanMirrorMove
+Description = For four turns, this move prevents the target from using the move it last used.
+#-------------------------------
+[LICK18]
+Name = Lick
+Type = GHOST18
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.
+#-------------------------------
+[MEMENTO18]
+Name = Memento
+Type = GHOST18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserFaintsLowerTargetAtkSpAtk2
+Flags = CanMirrorMove
+Description = The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.
+#-------------------------------
+[NIGHTSHADE18]
+Name = Night Shade
+Type = GHOST18
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = FixedDamageUserLevel
+Flags = CanProtect,CanMirrorMove
+Description = The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.
+#-------------------------------
+[NIGHTMARE18]
+Name = Nightmare
+Type = GHOST18
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user drags the foe into the darkness within darkness of a dream and,which can make the foe fall asleep.
+#-------------------------------
+[OMINOUSWIND18]
+Name = Ominous Wind
+Type = GHOST18
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = RaiseUserMainStats1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.
+#-------------------------------
+[PAINSPLIT18]
+Name = Pain Split
+Type = GHOST18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = UserTargetAverageHP
+Flags = CanProtect,CanMirrorMove
+Description = The user adds its HP to the target's HP, then equally shares the combined HP with the target.
+#-------------------------------
+[PERFORMANCE18]
+Name = Performance
+Type = GHOST18
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = RandomNearFoe
+FunctionCode = MultiTurnAttackPreventSleeping
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 100
+Description = The user begins singing a loud and deafening song. Over that time, no one can fall asleep.
+#-------------------------------
+[PERISHSONG18]
+Name = Perish Song
+Type = GHOST18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = AllBattlers
+FunctionCode = StartPerishCountsForAllBattlers
+Description = Any combatant that hears this song faints in three turns, unless it switches out of battle.
+#-------------------------------
+[SCREECH18]
+Name = Screech
+Type = GHOST18
+Category = Status
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetDefense2
+Flags = CanProtect,CanMirrorMove
+Description = An earsplitting screech harshly reduces the target's Defense stat.
+#-------------------------------
+[SHADOWBALL18]
+Name = Shadow Ball
+Type = GHOST18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Bomb
+EffectChance = 10
+Description = The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[SHADOWDANCE18]
+Name = Shadow Dance
+Type = GHOST18
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 15
+Target = RandomNearFoe
+FunctionCode = MultiTurnAttackConfuseUserAtEnd
+Flags = Contact,CanProtect,CanMirrorMove,Dance
+EffectChance = 100
+Description = The user attacks aggressively through shadows for two to three turns. They then becomes confused.
+#-------------------------------
+[SHADOWDIVE18]
+Name = Shadow Dive
+Type = GHOST18
+Category = Physical
+Power = 140
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackInvulnerableRemoveProtections
+Flags = Contact,CanMirrorMove
+Description = The uer dives deep within shadows, before striking on the next turn. It can be used to dive in the ocean.
+#-------------------------------
+[SHADOWHIT18]
+Name = Shadow Hit
+Type = GHOST18
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = A sneaky attack with a high critical rate.
+#-------------------------------
+[SHADOWPUNCH18]
+Name = Shadow Punch
+Type = GHOST18
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user throws a punch from the shadows. The punch lands without fail.
+#-------------------------------
+[SPITE18]
+Name = Spite
+Type = GHOST18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerPPOfTargetLastMoveBy4
+Flags = CanProtect,CanMirrorMove
+Description = The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.
+#-------------------------------
+[ATTRACT18]
+Name = Attract
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = AttractTarget
+Flags = CanProtect,CanMirrorMove
+Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
+#-------------------------------
+[BATONPASS18]
+Name = Baton Pass
+Type = HEART18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = SwitchOutUserPassOnEffects
+Description = The user switches places with a party member in waiting, passing along any stat changes.
+#-------------------------------
+[BIND18]
+Name = Bind
+Type = HEART18
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.
+#-------------------------------
+[BODYSLAM18]
+Name = Body Slam
+Type = HEART18
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user drops onto the target with its full body weight. It may leave the target with paralysis.
+#-------------------------------
+[CHARGEBEAM18]
+Name = Charge Beam
+Type = HEART18
+Category = Special
+Power = 50
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 70
+Description = The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.
+#-------------------------------
+[CHARMINGLOOK18]
+Name = CharmingLook
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = DisableTargetStatusMoves
+Flags = CanProtect
+Description = The user gives a soft and charming look, which entices the target to use nothing but attacking moves.
+#-------------------------------
+[DEFENSECURL18]
+Name = Defense Curl
+Type = HEART18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserDefense1CurlUpUser
+Description = The user curls up to conceal weak spots and raise its Defense stat.
+#-------------------------------
+[DISTURBANCE18]
+Name = Disturbance
+Type = HEART18
+Category = Status
+Accuracy = 90
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+Description = The user causes a disturbance, which causes the target's accuracy to be lowered by one stage.
+#-------------------------------
+[DIZZYPUNCH18]
+Name = Dizzy Punch
+Type = HEART18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 20
+Description = The target is hit with rhythmically launched punches that may also leave it confused.
+#-------------------------------
+[ENCORE18]
+Name = Encore
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = DisableTargetUsingDifferentMove
+Flags = CanProtect,CanMirrorMove
+Description = The user compels the target to keep using only the move it last used for three turns.
+#-------------------------------
+[FAKEOUT18]
+Name = Fake Out
+Type = HEART18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 1
+FunctionCode = FlinchTargetFailsIfNotUserFirstTurn
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.
+#-------------------------------
+[HEADBUTT18]
+Name = Headbutt
+Type = HEART18
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user sticks out its head and attacks by charging into the foe. It may also make the target flinch.
+#-------------------------------
+[HEALBELL18]
+Name = Heal Bell
+Type = HEART18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = UserSide
+FunctionCode = CureUserPartyStatus
+Description = The user makes a soothing bell chime to heal the status problems of party members.
+#-------------------------------
+[HEARTSEYE18]
+Name = Hearts Eye
+Type = HEART18
+Category = Status
+Accuracy = 85
+TotalPP = 40
+Target = NearOther
+FunctionCode = LowerTargetSpDef2
+Flags = CanProtect
+Description = The user stares at the foe with such intensity that it lowers the target's Sp. Def stat.
+#-------------------------------
+[HELPINGHAND18]
+Name = Helping Hand
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearAlly
+Priority = 5
+FunctionCode = PowerUpAllyMove
+Description = The user assists an ally by boosting the power of its attack.
+#-------------------------------
+[JAMMING18]
+Name = Jamming
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = TrapTargetInBattle
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user traps the foe by the use of ultrasonic sound waves. The target becomes unable to flee.
+#-------------------------------
+[MINDBOMB18]
+Name = Mind Bomb
+Type = HEART18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithTargetWeight
+Flags = CanProtect,CanMirrorMove
+Description = The user hurls a bomb of psychokinetic energy at the enemy. Power is based on the foe's Cost.
+#-------------------------------
+[MIRRORCOAT18]
+Name = Mirror Coat
+Type = HEART18
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = None
+Priority = -5
+FunctionCode = CounterSpecialDamage
+Flags = CanMirrorMove
+Description = A retaliation move that counters any special attack, inflicting double the damage taken.
+#-------------------------------
+[MIRRORSHOT18]
+Name = Mirror Shot
+Type = HEART18
+Category = Special
+Power = 65
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user looses a flash of energy from its polished body. It may also lower the target's accuracy.
+#-------------------------------
+[MISTBALL18]
+Name = Mist Ball
+Type = HEART18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A mistlike flurry of down envelops and damages the target. It may also lower the target's accuracy.
+#-------------------------------
+[RECOLLECTION18]
+Name = Recollection
+Type = HEART18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserCopiesMovesWithoutTransforming
+Description = The user peers into the heart of its target and uses their own moves against them.
+#-------------------------------
+[SIGNALBEAM18]
+Name = Signal Beam
+Type = HEART18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with a sinister beam of light. It may also confuse the target.
+#-------------------------------
+[SMILE18]
+Name = Smile
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAttack2
+Flags = CanProtect,CanMirrorMove
+Description = The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.
+#-------------------------------
+[SWEETKISS18]
+Name = Sweet Kiss
+Type = HEART18
+Category = Status
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user kisses the target with a sweet, angelic cuteness that causes confusion.
+#-------------------------------
+[TEETERDANCE18]
+Name = Teeter Dance
+Type = HEART18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = AllNearOthers
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user performs a wobbly dance that confuses everyone on the field.
+#-------------------------------
+[TRIATTACK18]
+Name = Tri-Attack
+Type = HEART18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeBurnOrFreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.
+#-------------------------------
+[VITALTHROW18]
+Name = Vital Throw
+Type = HEART18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -1
+FunctionCode = RemoveTargetItem
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 50
+Description = The user attacks last. In return, it never misses. It may knock off items.
+#-------------------------------
+[WANTING18]
+Name = Wanting
+Type = HEART18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user puts on a cute face and begs the target for their held item. It can't steal if the user holds an item.
+#-------------------------------
+[WITHDRAW18]
+Name = Withdraw
+Type = HEART18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserDefSpDef1
+Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+[AURORABEAM18]
+Name = Aurora Beam
+Type = ICE18
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.
+#-------------------------------
+[BLIZZARD18]
+Name = Blizzard
+Type = ICE18
+Category = Special
+Power = 120
+Accuracy = 75
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = FreezeTargetAlwaysHitsInHail
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.
+#-------------------------------
+[HAIL18]
+Name = Hail
+Type = ICE18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = StartHailWeather
+Description = The user summons a hail storm lasting five turns. It damages all battlers except the Ice type.
+#-------------------------------
+[HAZE18]
+Name = Haze
+Type = ICE18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = BothSides
+FunctionCode = ResetAllBattlersStatStages
+Description = The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.
+#-------------------------------
+[ICEBALL18]
+Name = Ice Ball
+Type = ICE18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Bomb
+EffectChance = 10
+Description = The user hurls a large ball of ice at the target. It may also lower the target's Defense stat.
+#-------------------------------
+[ICEBEAM18]
+Name = Ice Beam
+Type = ICE18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is struck with an icy-cold beam of energy. It may also freeze the target solid.
+#-------------------------------
+[ICEPUNCH18]
+Name = Ice Punch
+Type = ICE18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with an icy fist. It may also leave the target frozen.
+#-------------------------------
+[ICESHARD18]
+Name = Ice Shard
+Type = ICE18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
+#-------------------------------
+[ICYWIND18]
+Name = Icy Wind
+Type = ICE18
+Category = Special
+Power = 55
+Accuracy = 90
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.
+#-------------------------------
+[LUNADIAL18]
+Name = Luna Dial
+Type = ICE18
+Category = Special
+Power = 40
+Accuracy = 55
+TotalPP = 5
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user stops time to close in on the foe and attack. If it connects, the target will be frozen.
+#-------------------------------
+[MIST18]
+Name = Mist
+Type = ICE18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = UserSide
+FunctionCode = StartUserSideImmunityToStatStageLowering
+Description = The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.
+#-------------------------------
+[POWDERSNOW18]
+Name = Powder Snow
+Type = ICE18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = AllNearFoes
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user attacks with a chilling gust of powdery snow. It may also freeze the targets.
+#-------------------------------
+[SHEERCOLD18]
+Name = Sheer Cold
+Type = ICE18
+Category = Special
+Power = 1
+Accuracy = 30
+TotalPP = 5
+Target = NearOther
+FunctionCode = OHKO
+Flags = CanProtect,CanMirrorMove
+Description = The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.
+#-------------------------------
+[ASSIST18]
+Name = Assist
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+FunctionCode = UseRandomMoveFromUserParty
+Description = The user hurriedly and randomly uses a move among those known by other party members.
+#-------------------------------
+[CAMOUFLAGE18]
+Name = Camouflage
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+FunctionCode = SetUserTypesBasedOnEnvironment
+Description = The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.
+#-------------------------------
+[CONVERSION18]
+Name = Conversion
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = SetUserTypesToUserMoveType
+Description = The user changes its type to become the same type as one of its moves.
+#-------------------------------
+[CONVERSION218]
+Name = Conversion 2
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = SetUserTypesToResistLastAttack
+Description = The user changes its type to make itself resistant to the type of the attack the opponent used last.
+#-------------------------------
+[DOUBLETEAM18]
+Name = Double Team
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserEvasion1
+Description = By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.
+#-------------------------------
+[DRACOMETEOR18]
+Name = Draco Meteor
+Type = ILLUSION18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.
+#-------------------------------
+[EXPLOSION18]
+Name = Explosion
+Type = ILLUSION18
+Category = Physical
+Power = 250
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = UserFaintsExplosive
+Flags = CanProtect,CanMirrorMove
+Description = The user explodes to inflict damage on those around it. The user faints upon using this move.
+#-------------------------------
+[EXTREMESPEED18]
+Name = Extremespeed
+Type = ILLUSION18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 2
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user charges the target at blinding speed. This attack always goes before any other move.
+#-------------------------------
+[FACADE18]
+Name = Facade
+Type = ILLUSION18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DoublePowerIfUserPoisonedBurnedParalyzed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack move that doubles its power if the user is poisoned, burned, or has paralysis.
+#-------------------------------
+[FALSESWIPE18]
+Name = False Swipe
+Type = ILLUSION18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = CannotMakeTargetFaint
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.
+#-------------------------------
+[FEINT18]
+Name = Feint
+Type = ILLUSION18
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 2
+FunctionCode = RemoveProtections
+Flags = Contact,CanMirrorMove
+Description = An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.
+#-------------------------------
+[FLAIL18]
+Name = Flail
+Type = ILLUSION18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = PowerLowerWithUserHP
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
+#-------------------------------
+[FRUSTRATION18]
+Name = Frustration
+Type = ILLUSION18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerLowerWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A full-power attack that grows more powerful the less the user likes its Trainer.
+#-------------------------------
+[GROWL18]
+Name = Growl
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = AllNearFoes
+FunctionCode = LowerTargetAttack1
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered.
+#-------------------------------
+[LEER18]
+Name = Leer
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetDefense1
+Flags = CanProtect,CanMirrorMove
+Description = The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced.
+#-------------------------------
+[METRONOME18]
+Name = Metronome
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UseRandomMove
+Description = The user waggles a finger and stimulates its brain into randomly using nearly any move.
+#-------------------------------
+[MILKDRINK18]
+Name = Milk Drink
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+#-------------------------------
+[MIMIC18]
+Name = Mimic
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = ReplaceMoveThisBattleWithTargetLastMoveUsed
+Flags = CanProtect
+Description = The user copies the move last used by the foe. The move can be used until the user is switched out.
+#-------------------------------
+[PAYDAY18]
+Name = Pay Day
+Type = ILLUSION18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = AddMoneyGainedFromBattle
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Numerous coins are hurled at the target to inflict damage. Money is earned after battle.
+#-------------------------------
+[POUND18]
+Name = Pound
+Type = ILLUSION18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is physically pounded with a long tail or a foreleg, etc.
+#-------------------------------
+[PROTECT18]
+Name = Protect
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserDefSpDef1
+Description = The user readies themselves for a foe's attack by boosting both Defense and Sp.Def by one stage.
+#-------------------------------
+[RECOVER18]
+Name = Recover
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Description = Restoring its own cells, the user restores its own HP by half of its max HP.
+#-------------------------------
+[REST18]
+Name = Rest
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = HealUserFullyAndFallAsleep
+Description = The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.
+#-------------------------------
+[RETURN18]
+Name = Return
+Type = ILLUSION18
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A full-power attack that grows more powerful the more the user likes its Trainer.
+#-------------------------------
+[SECRETPOWER18]
+Name = Secret Power
+Type = ILLUSION18
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = EffectDependsOnEnvironment
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
+#-------------------------------
+[SELFDESTRUCT18]
+Name = Selfdestruct
+Type = ILLUSION18
+Category = Physical
+Power = 200
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = UserFaintsExplosive
+Flags = CanProtect,CanMirrorMove
+Description = The user blows up to inflict damage on all participants in battle. The user faints upon using this move.
+#-------------------------------
+[SKETCH18]
+Name = Sketch
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = NearOther
+FunctionCode = ReplaceMoveWithTargetLastMoveUsed
+Description = It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.
+#-------------------------------
+[SLEEPTALK18]
+Name = Sleep Talk
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UseRandomUserMoveIfAsleep
+Description = While it is asleep, the user randomly uses one of the moves it knows.
+#-------------------------------
+[SOFTBOILED18]
+Name = Softboiled
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = HealUserHalfOfTotalHP
+Flags = CanMirrorMove
+Description = The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.
+#-------------------------------
+[SPLASH18]
+Name = Splash
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = DoesNothingUnusableInGravity
+Description = The user just flops and splashes around to no effect at all...
+#-------------------------------
+[STRUGGLE18]
+Name = Struggle
+Type = ILLUSION18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 1
+Target = RandomNearFoe
+FunctionCode = Struggle
+Flags = Contact,CanProtect,CanMirrorMove
+Description = An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.
+#-------------------------------
+[SUBSTITUTE18]
+Name = Substitute
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = UserMakeSubstitute
+Description = The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.
+#-------------------------------
+[SWIFT18]
+Name = Swift
+Type = ILLUSION18
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanMirrorMove
+Description = Star-shaped rays are shot at the opposing team. This attack never misses.
+#-------------------------------
+[TRANSFORM18]
+Name = Transform
+Type = ILLUSION18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = TransformUserIntoTarget
+Description = The user transforms into a copy of the target right down to having the same move set.
+#-------------------------------
+[WEATHERBALL18]
+Name = Weather Ball
+Type = ILLUSION18
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TypeAndPowerDependOnWeatherThmn
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = An attack move that varies in power and type depending on the weather.
+#-------------------------------
+[YAWN18]
+Name = Yawn
+Type = ILLUSION18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SleepTargetNextTurn
+Flags = CanProtect,CanMirrorMove
+Description = The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.
+#-------------------------------
+[CROSSPOISON18]
+Name = Cross Poison
+Type = MIASMA18
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.
+#-------------------------------
+[DISPERSE18]
+Name = Disperse
+Type = MIASMA18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user takes up a firm, wide stance, raising Defense two stages.
+#-------------------------------
+[GUNKSHOT18]
+Name = Gunk Shot
+Type = MIASMA18
+Category = Physical
+Power = 120
+Accuracy = 75
+TotalPP = 5
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user shoots filthy garbage at the target to attack. It may also poison the target.
+#-------------------------------
+[POISONBOMB18]
+Name = Poison Bomb
+Type = MIASMA18
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = Unsanitary sludge is hurled at the target. It may also poison the target.
+#-------------------------------
+[POISONJAB18]
+Name = Poison Jab
+Type = MIASMA18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.
+#-------------------------------
+[POISONSTING18]
+Name = Poison Sting
+Type = MIASMA18
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user stabs the target with a poison-tipped apendages. This may also poison the target.
+#-------------------------------
+[POISONTEARS18]
+Name = Poison Tears
+Type = MIASMA18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = AllNearFoes
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target lets loose venomous teardrops of poison that may lower Special Defense.
+#-------------------------------
+[RAPIDSPIN18]
+Name = Rapid Spin
+Type = MIASMA18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = RemoveUserBindingAndEntryHazards
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.
+#-------------------------------
+[TOXIC18]
+Name = Toxic
+Type = MIASMA18
+Category = Status
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A move that leaves the target badly poisoned. Its poison damage worsens every turn.
+#-------------------------------
+[TOXICGAS18]
+Name = Toxic Gas
+Type = MIASMA18
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 40
+Description = A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.
+#-------------------------------
+[ABSORB18]
+Name = Absorb
+Type = NATURE18
+Category = Special
+Power = 20
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[AROMATHERAPY18]
+Name = Aromatherapy
+Type = NATURE18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = UserSide
+FunctionCode = CureUserPartyStatus
+Description = The user releases a soothing scent that heals all status problems affecting the user's party.
+#-------------------------------
+[BULLETSEED18]
+Name = Bullet Seed
+Type = NATURE18
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
+#-------------------------------
+[BURNPOWDER18]
+Name = Burn Powder
+Type = NATURE18
+Category = Status
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user releases a strange, heated powder that causes burns.
+#-------------------------------
+[CONSTRICT18]
+Name = Constrict
+Type = NATURE18
+Category = Physical
+Power = 30
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The foe is attacked with long, creeping tentacles or vines. It may also cause paralysis.
+#-------------------------------
+[COTTONSPORE18]
+Name = Cotton Spore
+Type = NATURE18
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = LowerTargetSpeed2
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.
+#-------------------------------
+[ENERGYLIGHT18]
+Name = Energy Light
+Type = NATURE18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A beam of light descends from the sky and strikes the target. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[FRENZYPLANT18]
+Name = Frenzy Plant
+Type = NATURE18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user slams the target with an enormous tree, but lowers the user's Sp.Atk.
+#-------------------------------
+[GIGADRAIN18]
+Name = Giga Drain
+Type = NATURE18
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[GROWTH18]
+Name = Growth
+Type = NATURE18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserSpAtk1
+Description = The user's body grows all at once, raising the Special Atk stat by one stage.
+#-------------------------------
+[INGRAIN18]
+Name = Ingrain
+Type = NATURE18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+FunctionCode = StartHealUserEachTurnTrapUserInBattle
+Description = The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.
+#-------------------------------
+[LEAFBLADE18]
+Name = Leaf Blade
+Type = NATURE18
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.
+#-------------------------------
+[LEECHSEED18]
+Name = Leech Seed
+Type = NATURE18
+Category = Status
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+Description = A seed is planted on the target. It steals some HP from the target every turn.
+#-------------------------------
+[MAGICALLEAF18]
+Name = Magical Leaf
+Type = NATURE18
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user scatters curious leaves that chase the target. This attack will not miss.
+#-------------------------------
+[MEGADRAIN18]
+Name = Mega Drain
+Type = NATURE18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[NATUREPOWER18]
+Name = Nature Power
+Type = NATURE18
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithTargetWeight
+Flags = CanProtect,CanMirrorMove
+Description = An attack that makes use of nature's power. Power is based on the foe's Cost.
+#-------------------------------
+[NATURESOUND18]
+Name = Nature Sound
+Type = NATURE18
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Sound
+Description = The user lets out a powerful noise that harms the target.
+#-------------------------------
+[NEEDLEARM18]
+Name = Needle Arm
+Type = NATURE18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user attacks by wildly swinging its thorny arms. It may also make the target flinch.
+#-------------------------------
+[POISONPOWDER18]
+Name = PoisonPowder
+Type = NATURE18
+Category = Status
+Accuracy = 75
+TotalPP = 35
+Target = NearOther
+FunctionCode = PoisonTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a cloud of poisonous dust on the target. It may poison the target.
+#-------------------------------
+[POWERWHIP18]
+Name = Power Whip
+Type = NATURE18
+Category = Physical
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user strikes the foe intensely with vines or shawls for significant punishment.
+#-------------------------------
+[RAZORLEAF18]
+Name = Razor Leaf
+Type = NATURE18
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 25
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.
+#-------------------------------
+[SLEEPPOWDER18]
+Name = Sleep Powder
+Type = NATURE18
+Category = Status
+Accuracy = 75
+TotalPP = 15
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a big cloud of sleep-inducing dust around the target.
+#-------------------------------
+[SOLARBEAM18]
+Name = Solarbeam
+Type = NATURE18
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackOneTurnInSun
+Flags = CanProtect,CanMirrorMove
+Description = A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.
+#-------------------------------
+[SPIDERWEB18]
+Name = Spider Web
+Type = NATURE18
+Category = Special
+Power = 50
+Accuracy = 80
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user shoots sticky string at the foe to ensnare them in a web. If it connects, they become paralyzed.
+#-------------------------------
+[STUNSPORE18]
+Name = Stun Spore
+Type = NATURE18
+Category = Status
+Accuracy = 75
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove,Powder
+Description = The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.
+#-------------------------------
+[SYNTHESIS18]
+Name = Synthesis
+Type = NATURE18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = User
+FunctionCode = HealUserDependingOnWeather
+Description = The user restores its own HP. The amount of HP regained varies with the weather.
+#-------------------------------
+[VINEWHIP18]
+Name = Vine Whip
+Type = NATURE18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is struck with slender, whiplike vines to inflict damage.
+#-------------------------------
+[WIREWEB18]
+Name = Wire Web
+Type = NATURE18
+Category = Status
+Accuracy = 85
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetSpeed2
+Flags = CanProtect,CanMirrorMove
+Description = A fine web is elegantly fired from the user, lowering the foe's Speed stat.
+#-------------------------------
+[WRAP18]
+Name = Wrap
+Type = NATURE18
+Category = Physical
+Power = 60
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 100
+Description = A length of ribbons or vines are used to wrap and squeeze the target for four to five turns.
+#-------------------------------
+[CHECKMAID]
+Name = Checkmaid
+Type = QMARKS
+Category = Special
+Power = 100
+Accuracy = 95
+TotalPP = 60
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,ThawsUser
+Description = The user strikes the target with a mop.
+#-------------------------------
+[AMNESIA18]
+Name = Amnesia
+Type = REASON18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpDef2
+Description = The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.
+#-------------------------------
+[BARRIER18]
+Name = Barrier
+Type = REASON18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user throws up a sturdy wall that sharply raises its Defense stat.
+#-------------------------------
+[FORESIGHT18]
+Name = Foresight
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = NearOther
+FunctionCode = StartNegateTargetEvasionStatStageAndGhostImmunity
+Flags = CanProtect,CanMirrorMove
+Description = Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.
+#-------------------------------
+[HYPNOSIS18]
+Name = Hypnosis
+Type = REASON18
+Category = Status
+Accuracy = 60
+TotalPP = 20
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user employs hypnotic suggestion to make the target fall into a deep sleep.
+#-------------------------------
+[LOCKON18]
+Name = Lock On
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserAccuracy2
+Description = The user takes sure aim at the target, sharply boosting Accuracy.
+#-------------------------------
+[LUSTERPURGE18]
+Name = Luster Purge
+Type = REASON18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.
+#-------------------------------
+[MAGICCOAT18]
+Name = Magic Coat
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = User
+Priority = 4
+FunctionCode = BounceBackProblemCausingStatusMoves
+Description = A barrier reflects back to the target moves like Leech Seed and moves that damage status.
+#-------------------------------
+[MAGICKNIFE18]
+Name = Magic Knife
+Type = REASON18
+Category = Physical
+Power = 25
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The target is stabbed repeatedly with illusonary knives two to five times in a row.
+#-------------------------------
+[MANABURST18]
+Name = Mana Burst
+Type = REASON18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.
+#-------------------------------
+[MANACHARGE18]
+Name = Mana Charge
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+FunctionCode = RaiseUserSpAtkSpDef1
+Description = The user stores mana within their body to boost their Sp.Atk and Sp.Def stats.
+#-------------------------------
+[MANASHIELD18]
+Name = Mana Shield
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 40
+Target = User
+FunctionCode = RaiseUserSpDef1
+Description = The user raises a a magical barrier around themselves to boost Sp.Def.
+#-------------------------------
+[PSYBEAM18]
+Name = Psybeam
+Type = REASON18
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is attacked with a peculiar ray. It may also cause confusion.
+#-------------------------------
+[PSYCHUP18]
+Name = Psych Up
+Type = REASON18
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserCopyTargetStatStages
+Description = The user hypnotizes itself into copying any stat change made by the target.
+#-------------------------------
+[PSYCHOBOOST18]
+Name = Psycho Boost
+Type = REASON18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.
+#-------------------------------
+[PSYCHOCUT18]
+Name = Psycho Cut
+Type = REASON18
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user tears at the target with blades formed by psychic power. Critical hits land more easily.
+#-------------------------------
+[PSYSHOT18]
+Name = Psyshot
+Type = REASON18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit by a weak telekinetic force. It may also leave the target confused.
+#-------------------------------
+[PSYWAVE18]
+Name = Psywave
+Type = REASON18
+Category = Special
+Power = 1
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = FixedDamageUserLevelRandom
+Flags = CanProtect,CanMirrorMove
+Description = The target is attacked with an odd psychic wave. The attack varies in intensity.
+#-------------------------------
+[SKILLSWAP18]
+Name = Skill Swap
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapAbilities
+Flags = CanProtect,CanMirrorMove
+Description = The user employs its psychic power to exchange Abilities with the target.
+#-------------------------------
+[TELEPORT18]
+Name = Teleport
+Type = REASON18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = FleeFromBattle
+Description = Use it to flee from any wild battle. It can also warp to the last Pokémon Center visited.
+#-------------------------------
+[TRICK18]
+Name = Trick
+Type = REASON18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserTargetSwapItems
+Flags = CanProtect,CanMirrorMove
+Description = The user catches the target off guard and swaps its held item with its own.
+#-------------------------------
+[ZENHEADBUTT18]
+Name = Zen Headbutt
+Type = REASON18
+Category = Physical
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.
+#-------------------------------
+[BATTLECHANT18]
+Name = Battle Chant
+Type = STEEL18
+Category = Physical
+Power = 100
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = A spirited blow that may raise the user's Attack stat.
+#-------------------------------
+[BLADEFLASH18]
+Name = Blade Flash
+Type = STEEL18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A quick sword swipe by a skilled swordsmaster. It is sure to strike first.
+#-------------------------------
+[BONECLUB18]
+Name = Bone Club
+Type = STEEL18
+Category = Physical
+Power = 40
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Sketched Bone Club!  +100,000 points! :wacko:
+#-------------------------------
+[BRAVER18]
+Name = Braver
+Type = STEEL18
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user swings a sword with heavy force upon the target. It may also lower the target's Defense stat.
+#-------------------------------
+[CUT18]
+Name = Cut
+Type = STEEL18
+Category = Physical
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is cut with a scythe or a claw that doesn't miss. It can also be used to cut down thin trees.
+#-------------------------------
+[DRAWNLINE18]
+Name = Drawn Line
+Type = STEEL18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user slashes at the foe with a clean swipe. Critical hits land more easily.
+#-------------------------------
+[FURYCUTTER18]
+Name = Fury Cutter
+Type = STEEL18
+Category = Physical
+Power = 40
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = MultiTurnAttackPowersUpEachTurn
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slashed with scythes or claws. It becomes stronger each turn.
+#-------------------------------
+[HARDEN18]
+Name = Harden
+Type = STEEL18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserDefense1
+Description = The user stiffens all the muscles in its body to raise its Defense stat.
+#-------------------------------
+[IRONDEFENSE18]
+Name = Iron Defense
+Type = STEEL18
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = User
+FunctionCode = RaiseUserDefense2
+Description = The user hardens its body's surface like iron, sharply raising its Defense stat.
+#-------------------------------
+[KNIFETHROW18]
+Name = Knife Throw
+Type = STEEL18
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = A knife is thrown with great speed at its foe. Critical hits land more easily.
+#-------------------------------
+[LUNATIC18]
+Name = LUNATIC
+Type = STEEL18
+Category = Special
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The foe is attacked with a powerful attack that may lower their Sp.Def.
+#-------------------------------
+[METALCLAW18]
+Name = Metal Claw
+Type = STEEL18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserAttack1
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 10
+Description = The target is raked with steel claws. It may also raise the user's Attack stat.
+#-------------------------------
+[METEORMASH18]
+Name = Meteor Mash
+Type = STEEL18
+Category = Physical
+Power = 120
+Accuracy = 80
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The target is hit with a hard punch fired like a meteor that may lower Speed.
+#-------------------------------
+[SCRATCH18]
+Name = Scratch
+Type = STEEL18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Hard, pointed, and sharp objects rake the target to inflict damage.
+#-------------------------------
+[SCULPTURE18]
+Name = Sculpture
+Type = STEEL18
+Category = Physical
+Power = 95
+Accuracy = 0
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanMirrorMove
+Description = An volley of uncountless knives descend upon the target from all sides, making it impossible to dodge.
+#-------------------------------
+[SHARPEN18]
+Name = Sharpen
+Type = STEEL18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserAttack1
+Description = The user sharpens a blade to boost its Attack stat and accuracy.
+#-------------------------------
+[SKULLBASH18]
+Name = Skull Bash
+Type = STEEL18
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackChargeRaiseUserDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.
+#-------------------------------
+[SONICBOOM18]
+Name = Sonicboom
+Type = STEEL18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit with a destructive shock wave that may lower Sp.Defense.
+#-------------------------------
+[STEELFIST18]
+Name = Steel Fist
+Type = STEEL18
+Category = Physical
+Power = 100
+Accuracy = 80
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+EffectChance = 30
+Description = The target is punched with a steel-hard fist. It may also lower the target's Defense stat.
+#-------------------------------
+[STEELWING18]
+Name = Steel Wing
+Type = STEEL18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserDefense1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The target is hit with wings of steel. It may also raise the user's Defense stat.
+#-------------------------------
+[SWORDSDANCE18]
+Name = Swords Dance
+Type = STEEL18
+Category = Status
+Accuracy = 0
+TotalPP = 30
+Target = User
+FunctionCode = RaiseUserAttack2
+Flags = Dance
+Description = A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.
+#-------------------------------
+[AQUAJET18]
+Name = Aqua Jet
+Type = WATER18
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.
+#-------------------------------
+[AQUASHOWER18]
+Name = Aqua Shower
+Type = WATER18
+Category = Special
+Power = 150
+Accuracy = 100
+TotalPP = 5
+Target = AllNearFoes
+FunctionCode = PowerHigherWithUserHP
+Flags = CanProtect,CanMirrorMove
+Description = A powerful downpour of water falls upon the foe. The lower the user's HP, the less powerful this attack becomes.
+#-------------------------------
+[BUBBLE18]
+Name = Bubble
+Type = WATER18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A spray of countless bubbles is jetted at the foe. It may also lower the targets' Speed stats.
+#-------------------------------
+[BUBBLEBEAM18]
+Name = Bubblebeam
+Type = WATER18
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetSpeed1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.
+#-------------------------------
+[HYDROCANNON18]
+Name = Hydro Cannon
+Type = WATER18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserSpAtk2
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The target is hit with a watery blast, but lowers the user's Sp.Atk.
+#-------------------------------
+[HYDROPUMP18]
+Name = Hydro Pump
+Type = WATER18
+Category = Special
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The target is blasted by a huge volume of water launched under great pressure.
+#-------------------------------
+[MUDDYWATER18]
+Name = Muddy Water
+Type = WATER18
+Category = Special
+Power = 80
+Accuracy = 90
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = LowerTargetAccuracy1
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.
+#-------------------------------
+[MYSTICWATER18]
+Name = Mystic Water
+Type = WATER18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = StartHealUserEachTurnTrapUserInBattle
+Description = The user conducts a ceremony that restores its HP on every turn. Because it is focused, it can't switch out.
+#-------------------------------
+[RAINDANCE18]
+Name = Rain Dance
+Type = WATER18
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+FunctionCode = StartRainWeather
+Description = The user summons a heavy rain that falls for five turns, powering up Water-type moves.
+#-------------------------------
+[RECYCLE18]
+Name = Recycle
+Type = WATER18
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = RestoreUserConsumedItem
+Description = The user recycles a held item that has been used in battle so it can be used again.
+#-------------------------------
+[REFRESH18]
+Name = Refresh
+Type = WATER18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = User
+FunctionCode = CureUserBurnPoisonParalysis
+Description = The user rests to cure itself of a poisoning, burn, or paralysis.
+#-------------------------------
+[SPLASHING18]
+Name = Splashing
+Type = WATER18
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = -4
+FunctionCode = DoublePowerIfUserLostHPThisTurn
+Flags = CanProtect,CanMirrorMove
+Description = Attack increases in power if harmed by the foe.
+#-------------------------------
+[SURF18]
+Name = Surf
+Type = WATER18
+Category = Special
+Power = 95
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = DoublePowerIfTargetUnderwater
+Flags = CanProtect,CanMirrorMove
+Description = It swamps the area around the user with a giant wave. It can also be used for crossing water.
+#-------------------------------
+[WATERGUN18]
+Name = Water Gun
+Type = WATER18
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The target is blasted with a forceful shot of water.
+#-------------------------------
+[WATERPULSE18]
+Name = Water Pulse
+Type = WATER18
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ConfuseTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user attacks the target with a pulsing blast of water. It may also confuse the target.
+#-------------------------------
+[WATERFALL18]
+Name = Waterfall
+Type = WATER18
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user charges at the target and may make it flinch. It can also be used to climb a waterfall.
+#-------------------------------
+[WHIRLPOOL18]
+Name = Whirlpool
+Type = WATER18
+Category = Special
+Power = 60
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = BindTargetDoublePowerIfTargetUnderwater
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = Traps foes in a violent swirling whirlpool for four to five turns.
+#-------------------------------
+[AEROBLAST18]
+Name = Aeroblast
+Type = WIND18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
+#-------------------------------
+[BATTCHARGE18]
+Name = Batt. Charge
+Type = WIND18
+Category = Status
+Accuracy = 0
+TotalPP = 40
+Target = UserSide
+FunctionCode = RaiseUserSpAtk1
+Description = The user shrouds itself in electricity and boosts their Sp.Atk stat one stage.
+#-------------------------------
+[DISCHARGE18]
+Name = Discharge
+Type = WIND18
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A flare of electricity is loosed to strike the area around the target. It may also cause paralysis.
+#-------------------------------
+[GUST18]
+Name = Gust
+Type = WIND18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 35
+Target = Other
+FunctionCode = DoublePowerIfTargetInSky
+Flags = CanProtect,CanMirrorMove
+Description = A gust of wind is whipped up by wings and launched at the target to inflict damage.
+#-------------------------------
+[SHOCKWAVE18]
+Name = Shock Wave
+Type = WIND18
+Category = Special
+Power = 60
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove
+Description = The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.
+#-------------------------------
+[TAILWIND18]
+Name = Tailwind
+Type = WIND18
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = UserSide
+FunctionCode = RaiseUserAtkSpd1
+Description = The user whips up a turbulent whirlwind that ups the user's Attack and Speed.
+#-------------------------------
+[THUNDER18]
+Name = Thunder
+Type = WIND18
+Category = Special
+Power = 120
+Accuracy = 70
+TotalPP = 10
+Target = NearOther
+FunctionCode = ParalyzeTargetAlwaysHitsInRainHitsTargetInSky
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.
+#-------------------------------
+[THUNDERWAVE18]
+Name = Thunder Wave
+Type = WIND18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+Description = A weak electric charge is launched at the target. It causes paralysis if it hits.
+#-------------------------------
+[THUNDERBOLT18]
+Name = Thunderbolt
+Type = WIND18
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A strong electric blast is loosed at the target. It may also leave the target with paralysis.
+#-------------------------------
+[THUNDERPUNCH18]
+Name = ThunderPunch
+Type = WIND18
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 10
+Description = The target is punched with an electrified fist. It may also leave the target with paralysis.
+#-------------------------------
+[THUNDERSHOCK18]
+Name = ThunderShock
+Type = WIND18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.
+#-------------------------------
+[TWISTER18]
+Name = Twister
+Type = WIND18
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = RemoveUserBindingAndEntryHazards
+Flags = CanProtect,CanMirrorMove
+EffectChance = 100
+Description = The user whips up a vicious tornado to tear at the opposing team. It also blows away Spikes/Bind/etc.
+#-------------------------------
+[VOLTTACKLE18]
+Name = Volt Tackle
+Type = WIND18
+Category = Physical
+Power = 120
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = RecoilThirdOfDamageDealt
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.
+#-------------------------------
+[WHIRLWIND18]
+Name = Whirlwind
+Type = WIND18
+Category = Status
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = -6
+FunctionCode = SwitchOutTargetStatusMove
+Flags = CanProtect,CanMirrorMove
+Description = The foe is blown away, to be replaced by another combatant in its party. In the wild, the battle ends.
+#-------------------------------
+[ROAROFTIME18]
+Name = Roar of Time
+Type = ILLUSION18
+Category = Special
+Power = 140
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerTargetSpAtk1
+Flags = CanProtect,CanMirrorMove
+Description = The user blasts the target with power that distorts even time. May lower their Sp. Def.
+#-------------------------------
+[BOLTBEAK18]
+Name = Bolt Beak
+Type = WIND18
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoublePowerIfTargetNotActed
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Stabs the target with an electrified beak. Power is doubled if the user attacks first.
+#-------------------------------
